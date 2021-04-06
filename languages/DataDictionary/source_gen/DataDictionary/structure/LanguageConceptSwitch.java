@@ -9,11 +9,51 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int DataDictionary = 0;
+  public static final int Aggregation = 0;
+  public static final int Boolean = 1;
+  public static final int Constraint = 2;
+  public static final int DataDictionary = 3;
+  public static final int Date = 4;
+  public static final int DomainDefinition = 5;
+  public static final int Double = 6;
+  public static final int ExclusiveSpecialization = 7;
+  public static final int Field = 8;
+  public static final int FieldDefiniton = 9;
+  public static final int IElement = 10;
+  public static final int ISpecialization = 11;
+  public static final int IStructure = 12;
+  public static final int Integer = 13;
+  public static final int NonExclusiveSpecialization = 14;
+  public static final int PredefinedDomain = 15;
+  public static final int SemanticDomain = 16;
+  public static final int SemanticDomainDefinition = 17;
+  public static final int Set = 18;
+  public static final int StructureDefinition = 19;
+  public static final int Text = 20;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xb7df9610c91c472eL, 0xb4856407763b5456L);
+    builder.put(0x13db5904c2c0bfc8L, Aggregation);
+    builder.put(0x13db5904c2c0bfd7L, Boolean);
+    builder.put(0x13db5904c2c0bfd4L, Constraint);
     builder.put(0x6d04cb7a96e885ffL, DataDictionary);
+    builder.put(0x13db5904c2c0bfd8L, Date);
+    builder.put(0x13db5904c2c0bfcbL, DomainDefinition);
+    builder.put(0x13db5904c2c0bfd9L, Double);
+    builder.put(0x13db5904c2c0bff3L, ExclusiveSpecialization);
+    builder.put(0x13db5904c2c0bfe2L, Field);
+    builder.put(0x13db5904c2c0bfdcL, FieldDefiniton);
+    builder.put(0x13db5904c2c0bfbcL, IElement);
+    builder.put(0x13db5904c2c0bfc2L, ISpecialization);
+    builder.put(0x13db5904c2c0bfbdL, IStructure);
+    builder.put(0x13db5904c2c0bfdaL, Integer);
+    builder.put(0x13db5904c2c0bff0L, NonExclusiveSpecialization);
+    builder.put(0x13db5904c2c0bfceL, PredefinedDomain);
+    builder.put(0x13db5904c2c0bff6L, SemanticDomain);
+    builder.put(0x13db5904c2c0bfcfL, SemanticDomainDefinition);
+    builder.put(0x13db5904c2c0c001L, Set);
+    builder.put(0x13db5904c2c0bff9L, StructureDefinition);
+    builder.put(0x13db5904c2c0bfdbL, Text);
     myIndex = builder.seal();
   }
 
