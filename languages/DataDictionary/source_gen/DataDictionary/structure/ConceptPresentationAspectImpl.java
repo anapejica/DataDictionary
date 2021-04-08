@@ -62,6 +62,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.DataDictionary:
         if (props_DataDictionary == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("\"Data Dictionary\"");
           cpb.presentationByName();
           props_DataDictionary = cpb.create();
         }

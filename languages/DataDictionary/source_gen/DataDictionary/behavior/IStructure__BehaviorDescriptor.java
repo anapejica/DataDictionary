@@ -11,25 +11,31 @@ import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
+import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Iterator;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfbdL, "DataDictionary.structure.IStructure");
 
   public static final SMethod<Integer> getFieldCount_id1frmgj2KeNS = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1frmgj2KeNS").build();
+  public static final SMethod<Void> createNewFieldDef_id6ttyxz4A9$r = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("createNewFieldDef").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4A9$r").build(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
+  public static final SMethod<Boolean> fieldNameAlreadyExist_id6ttyxz4A9A4 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.class)).name("fieldNameAlreadyExist").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4A9A4").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getFieldCount_id1frmgj2KeNS);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getFieldCount_id1frmgj2KeNS, createNewFieldDef_id6ttyxz4A9$r, fieldNameAlreadyExist_id6ttyxz4A9A4);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
@@ -50,6 +56,35 @@ public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
     }
     return counter;
   }
+  /*package*/ static void createNewFieldDef_id6ttyxz4A9$r(@NotNull SNode __thisNode__, List<SNode> listFieldDef) {
+    for (SNode e : SLinkOperations.getChildren(__thisNode__, LINKS.elements$3FNB)) {
+      if (SNodeOperations.isInstanceOf(e, CONCEPTS.Field$o3)) {
+        SNode field = ((SNode) e);
+        SNode fieldDef = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdcL, "DataDictionary.structure.FieldDefiniton"));
+        SLinkOperations.setTarget(fieldDef, LINKS.field$4fuu, field);
+        SLinkOperations.setTarget(fieldDef, LINKS.domain$426_, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL, "DataDictionary.structure.DomainDefinition")));
+        SLinkOperations.setTarget(fieldDef, LINKS.constraint$47vW, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd4L, "DataDictionary.structure.Constraint")));
+        SNodeOperations.insertNextSiblingChild(fieldDef, fieldDef);
+      } else {
+        SNode structure = ((SNode) e);
+        IElement__BehaviorDescriptor.createNewFieldDef_id6ttyxz4A9$r.invoke(structure, listFieldDef);
+      }
+    }
+  }
+  /*package*/ static Boolean fieldNameAlreadyExist_id6ttyxz4A9A4(@NotNull SNode __thisNode__, SNode field) {
+    for (SNode e : SLinkOperations.getChildren(__thisNode__, LINKS.elements$3FNB)) {
+      if (SNodeOperations.isInstanceOf(e, CONCEPTS.Field$o3)) {
+        SNode f1 = ((SNode) e);
+        if (f1 != field && SPropertyOperations.getString(f1, PROPS.name$MnvL).equals(SPropertyOperations.getString(field, PROPS.name$MnvL))) {
+          return true;
+        }
+      } else {
+        SNode structure = ((SNode) e);
+        IElement__BehaviorDescriptor.fieldNameAlreadyExist_id6ttyxz4A9A4.invoke(structure, field);
+      }
+    }
+    return false;
+  }
 
   /*package*/ IStructure__BehaviorDescriptor() {
   }
@@ -68,6 +103,11 @@ public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
     switch (methodIndex) {
       case 0:
         return (T) ((Integer) getFieldCount_id1frmgj2KeNS(node));
+      case 1:
+        createNewFieldDef_id6ttyxz4A9$r(node, (List<SNode>) parameters[0]);
+        return null;
+      case 2:
+        return (T) ((Boolean) fieldNameAlreadyExist_id6ttyxz4A9A4(node, (SNode) parameters[0]));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -99,9 +139,16 @@ public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink elements$3FNB = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfbdL, 0x13db5904c2c0bfc0L, "elements");
+    /*package*/ static final SReferenceLink field$4fuu = MetaAdapterFactory.getReferenceLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdcL, 0x13db5904c2c0bfecL, "field");
+    /*package*/ static final SContainmentLink domain$426_ = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdcL, 0x13db5904c2c0bfddL, "domain");
+    /*package*/ static final SContainmentLink constraint$47vW = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdcL, 0x13db5904c2c0bfdfL, "constraint");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Field$o3 = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfe2L, "DataDictionary.structure.Field");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }
