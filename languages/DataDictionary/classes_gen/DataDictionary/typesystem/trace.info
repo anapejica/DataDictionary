@@ -85,9 +85,9 @@
     </file>
     <file name="check_StructureDefinition_NonTypesystemRule.java">
       <node id="7855627377420677581" at="30,9,31,68" concept="6" />
-      <node id="7855627377420677581" at="31,68,32,245" concept="6" />
+      <node id="7855627377420677581" at="31,68,32,259" concept="6" />
       <node id="7855627377420659803" at="37,7,38,66" concept="6" />
-      <node id="7855627377420659803" at="38,66,39,249" concept="6" />
+      <node id="7855627377420659803" at="38,66,39,266" concept="6" />
       <node id="7855627377420635443" at="43,50,44,43" concept="7" />
       <node id="7855627377420635443" at="46,68,47,102" concept="7" />
       <node id="7855627377420635443" at="49,30,50,17" concept="7" />
@@ -112,11 +112,11 @@
       <scope id="7855627377420635443" at="46,68,47,102" />
       <scope id="7855627377420635443" at="49,30,50,17" />
       <scope id="7855627377420635443" at="25,0,27,0" />
-      <scope id="7855627377420677581" at="30,9,32,245">
+      <scope id="7855627377420677581" at="30,9,32,259">
         <var name="_reporter_2309309498" id="7855627377420677581" />
         <var name="errorTarget" id="7855627377420677581" />
       </scope>
-      <scope id="7855627377420659803" at="37,7,39,249">
+      <scope id="7855627377420659803" at="37,7,39,266">
         <var name="_reporter_2309309498" id="7855627377420659803" />
         <var name="errorTarget" id="7855627377420659803" />
       </scope>
@@ -154,87 +154,86 @@
     </file>
     <file name="check_Field_NonTypesystemRule.java">
       <node id="7855627377420812798" at="28,7,29,66" concept="6" />
-      <node id="7855627377420812798" at="29,66,30,235" concept="6" />
-      <node id="7855627377420812905" at="31,7,32,0" concept="8" />
-      <node id="7855627377421285868" at="33,5,34,0" concept="8" />
-      <node id="7855627377420988279" at="36,7,37,66" concept="6" />
-      <node id="7855627377420988279" at="37,66,38,247" concept="6" />
-      <node id="7855627377421290249" at="40,5,41,0" concept="8" />
-      <node id="7855627377420998173" at="43,7,44,66" concept="6" />
-      <node id="7855627377420998173" at="44,66,45,251" concept="6" />
-      <node id="7855627377421294537" at="47,5,48,0" concept="8" />
-      <node id="7855627377421029736" at="50,64,51,31" concept="6" />
-      <node id="7855627377421085899" at="53,11,54,70" concept="6" />
-      <node id="7855627377421085899" at="54,70,55,233" concept="6" />
-      <node id="7855627377420805096" at="61,50,62,29" concept="7" />
-      <node id="7855627377420805096" at="64,68,65,102" concept="7" />
-      <node id="7855627377420805096" at="67,30,68,17" concept="7" />
-      <node id="7855627377420805096" at="72,0,73,0" concept="9" trace="name$MnvL" />
-      <node id="7855627377420805096" at="76,0,77,0" concept="9" trace="Field$o3" />
-      <node id="7855627377420805096" at="77,0,78,0" concept="9" trace="IStructure$y7" />
-      <node id="7855627377420805096" at="81,0,82,0" concept="9" trace="elements$3FNB" />
+      <node id="7855627377420812798" at="29,66,30,246" concept="6" />
+      <node id="7855627377421285868" at="32,5,33,0" concept="8" />
+      <node id="7855627377420988279" at="35,7,36,66" concept="6" />
+      <node id="7855627377420988279" at="36,66,37,247" concept="6" />
+      <node id="7855627377421290249" at="39,5,40,0" concept="8" />
+      <node id="7855627377420998173" at="42,7,43,66" concept="6" />
+      <node id="7855627377420998173" at="43,66,44,251" concept="6" />
+      <node id="7855627377421294537" at="46,5,47,0" concept="8" />
+      <node id="7855627377421029736" at="49,64,50,31" concept="6" />
+      <node id="7855627377421085899" at="52,11,53,70" concept="6" />
+      <node id="7855627377421085899" at="53,70,54,245" concept="6" />
+      <node id="7855627377420805096" at="60,50,61,29" concept="7" />
+      <node id="7855627377420805096" at="63,68,64,102" concept="7" />
+      <node id="7855627377420805096" at="66,30,67,17" concept="7" />
+      <node id="7855627377420805096" at="71,0,72,0" concept="9" trace="name$MnvL" />
+      <node id="7855627377420805096" at="75,0,76,0" concept="9" trace="Field$o3" />
+      <node id="7855627377420805096" at="76,0,77,0" concept="9" trace="IStructure$y7" />
+      <node id="7855627377420805096" at="80,0,81,0" concept="9" trace="elements$3FNB" />
       <node id="7855627377420805096" at="24,0,26,0" concept="1" trace="check_Field_NonTypesystemRule#()V" />
-      <node id="7855627377420805096" at="61,0,64,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="7855627377420805096" at="64,0,67,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="7855627377420805096" at="67,0,70,0" concept="5" trace="overrides#()Z" />
-      <node id="7855627377420812798" at="27,80,31,7" concept="0" />
-      <node id="7855627377420988279" at="35,77,39,7" concept="0" />
-      <node id="7855627377420998173" at="42,78,46,7" concept="0" />
-      <node id="7855627377421085899" at="52,144,56,11" concept="0" />
-      <node id="7855627377420974227" at="34,0,40,5" concept="4" />
-      <node id="7855627377420989014" at="41,0,47,5" concept="4" />
-      <node id="7855627377421032259" at="51,31,57,9" concept="4" />
-      <node id="7855627377420805103" at="26,118,33,5" concept="4" />
-      <node id="7855627377421027793" at="49,149,58,7" concept="4" />
-      <node id="7855627377421013584" at="48,0,59,5" concept="3" />
-      <node id="7855627377420805096" at="26,0,61,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="7855627377420805096" at="60,0,63,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7855627377420805096" at="63,0,66,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7855627377420805096" at="66,0,69,0" concept="5" trace="overrides#()Z" />
+      <node id="7855627377420812798" at="27,153,31,7" concept="0" />
+      <node id="7855627377420988279" at="34,77,38,7" concept="0" />
+      <node id="7855627377420998173" at="41,78,45,7" concept="0" />
+      <node id="7855627377421085899" at="51,144,55,11" concept="0" />
+      <node id="7855627377420805103" at="26,118,32,5" concept="4" />
+      <node id="7855627377420974227" at="33,0,39,5" concept="4" />
+      <node id="7855627377420989014" at="40,0,46,5" concept="4" />
+      <node id="7855627377421032259" at="50,31,56,9" concept="4" />
+      <node id="7855627377421027793" at="48,149,57,7" concept="4" />
+      <node id="7855627377421013584" at="47,0,58,5" concept="3" />
+      <node id="7855627377420805096" at="26,0,60,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
       <scope id="7855627377420805096" at="24,42,24,42" />
-      <scope id="7855627377420805096" at="61,50,62,29" />
-      <scope id="7855627377420805096" at="64,68,65,102" />
-      <scope id="7855627377420805096" at="67,30,68,17" />
+      <scope id="7855627377420805096" at="60,50,61,29" />
+      <scope id="7855627377420805096" at="63,68,64,102" />
+      <scope id="7855627377420805096" at="66,30,67,17" />
       <scope id="7855627377420805096" at="24,0,26,0" />
-      <scope id="7855627377420812798" at="28,7,30,235">
+      <scope id="7855627377420812798" at="28,7,30,246">
         <var name="_reporter_2309309498" id="7855627377420812798" />
         <var name="errorTarget" id="7855627377420812798" />
       </scope>
-      <scope id="7855627377420988279" at="36,7,38,247">
+      <scope id="7855627377420988279" at="35,7,37,247">
         <var name="_reporter_2309309498" id="7855627377420988279" />
         <var name="errorTarget" id="7855627377420988279" />
       </scope>
-      <scope id="7855627377420998173" at="43,7,45,251">
+      <scope id="7855627377420998173" at="42,7,44,251">
         <var name="_reporter_2309309498" id="7855627377420998173" />
         <var name="errorTarget" id="7855627377420998173" />
       </scope>
-      <scope id="7855627377421085899" at="53,11,55,233">
+      <scope id="7855627377421085899" at="52,11,54,245">
         <var name="_reporter_2309309498" id="7855627377421085899" />
         <var name="errorTarget" id="7855627377421085899" />
       </scope>
-      <scope id="7855627377420805096" at="61,0,64,0" />
-      <scope id="7855627377420805096" at="64,0,67,0">
+      <scope id="7855627377420805096" at="60,0,63,0" />
+      <scope id="7855627377420805096" at="63,0,66,0">
         <var name="argument" id="7855627377420805096" />
       </scope>
-      <scope id="7855627377420805096" at="67,0,70,0" />
-      <scope id="7855627377420974229" at="35,77,39,7" />
-      <scope id="7855627377420989016" at="42,78,46,7" />
-      <scope id="7855627377421032261" at="52,144,56,11" />
-      <scope id="7855627377420805105" at="27,80,32,0" />
-      <scope id="7855627377421027795" at="50,64,57,9">
+      <scope id="7855627377420805096" at="66,0,69,0" />
+      <scope id="7855627377420805105" at="27,153,31,7" />
+      <scope id="7855627377420974229" at="34,77,38,7" />
+      <scope id="7855627377420989016" at="41,78,45,7" />
+      <scope id="7855627377421032261" at="51,144,55,11" />
+      <scope id="7855627377421027795" at="49,64,56,9">
         <var name="fld" id="7855627377421029739" />
       </scope>
-      <scope id="7855627377421013586" at="49,149,58,7" />
-      <scope id="7855627377421013584" at="48,0,59,5">
+      <scope id="7855627377421013586" at="48,149,57,7" />
+      <scope id="7855627377421013584" at="47,0,58,5">
         <var name="el" id="7855627377421013587" />
       </scope>
-      <scope id="7855627377420805097" at="26,118,59,5" />
-      <scope id="7855627377420805096" at="26,0,61,0">
+      <scope id="7855627377420805097" at="26,118,58,5" />
+      <scope id="7855627377420805096" at="26,0,60,0">
         <var name="field" id="7855627377420805096" />
         <var name="status" id="7855627377420805096" />
         <var name="typeCheckingContext" id="7855627377420805096" />
       </scope>
-      <unit id="7855627377420805096" at="71,0,74,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule$PROPS" />
-      <unit id="7855627377420805096" at="80,0,83,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule$LINKS" />
-      <unit id="7855627377420805096" at="75,0,79,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule$CONCEPTS" />
-      <unit id="7855627377420805096" at="23,0,84,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule" />
+      <unit id="7855627377420805096" at="70,0,73,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule$PROPS" />
+      <unit id="7855627377420805096" at="79,0,82,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule$LINKS" />
+      <unit id="7855627377420805096" at="74,0,78,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule$CONCEPTS" />
+      <unit id="7855627377420805096" at="23,0,83,0" name="DataDictionary.typesystem.check_Field_NonTypesystemRule" />
     </file>
   </root>
   <root nodeRef="r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)/7855627377420890181">
@@ -299,7 +298,7 @@
     </file>
     <file name="check_NonExclusiveSpecialization_NonTypesystemRule.java">
       <node id="7855627377420965306" at="27,7,28,66" concept="6" />
-      <node id="7855627377420965306" at="28,66,29,256" concept="6" />
+      <node id="7855627377420965306" at="28,66,29,285" concept="6" />
       <node id="7855627377420936550" at="33,50,34,50" concept="7" />
       <node id="7855627377420936550" at="36,68,37,102" concept="7" />
       <node id="7855627377420936550" at="39,30,40,17" concept="7" />
@@ -318,7 +317,7 @@
       <scope id="7855627377420936550" at="36,68,37,102" />
       <scope id="7855627377420936550" at="39,30,40,17" />
       <scope id="7855627377420936550" at="23,0,25,0" />
-      <scope id="7855627377420965306" at="27,7,29,256">
+      <scope id="7855627377420965306" at="27,7,29,285">
         <var name="_reporter_2309309498" id="7855627377420965306" />
         <var name="errorTarget" id="7855627377420965306" />
       </scope>
@@ -410,7 +409,7 @@
     </file>
     <file name="check_Set_NonTypesystemRule.java">
       <node id="7855627377421163220" at="27,7,28,66" concept="6" />
-      <node id="7855627377421163220" at="28,66,29,238" concept="6" />
+      <node id="7855627377421163220" at="28,66,29,242" concept="6" />
       <node id="7855627377421259881" at="31,5,32,0" concept="8" />
       <node id="7855627377421281392" at="34,7,35,66" concept="6" />
       <node id="7855627377421281392" at="35,66,36,270" concept="6" />
@@ -434,7 +433,7 @@
       <scope id="7855627377421137357" at="43,68,44,102" />
       <scope id="7855627377421137357" at="46,30,47,17" />
       <scope id="7855627377421137357" at="23,0,25,0" />
-      <scope id="7855627377421163220" at="27,7,29,238">
+      <scope id="7855627377421163220" at="27,7,29,242">
         <var name="_reporter_2309309498" id="7855627377421163220" />
         <var name="errorTarget" id="7855627377421163220" />
       </scope>

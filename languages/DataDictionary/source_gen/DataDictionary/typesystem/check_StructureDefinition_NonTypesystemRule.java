@@ -29,14 +29,14 @@ public class check_StructureDefinition_NonTypesystemRule extends AbstractNonType
       if (structure != structureDefinition && SPropertyOperations.getString(structure, PROPS.name$MnvL).equals(SPropertyOperations.getString(structureDefinition, PROPS.name$MnvL))) {
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(structureDefinition, "You must set unique name!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420677581", null, errorTarget);
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(structureDefinition, "You must set unique name for structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420677581", null, errorTarget);
         }
       }
     }
     if (ListSequence.fromList(SLinkOperations.getChildren(structureDefinition, LINKS.fieldDefinitions$4ufY)).count() < (int) IElement__BehaviorDescriptor.getFieldCount_id1frmgj2KeNS.invoke(SLinkOperations.getTarget(structureDefinition, LINKS.structure$4tLW))) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(structureDefinition, "You don't have all field definitions", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420659803", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(structureDefinition, "You don't have all field definitions in the structure", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420659803", null, errorTarget);
       }
     }
   }

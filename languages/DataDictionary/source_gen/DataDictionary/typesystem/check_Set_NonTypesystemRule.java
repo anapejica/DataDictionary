@@ -26,7 +26,7 @@ public class check_Set_NonTypesystemRule extends AbstractNonTypesystemRule_Runti
     if (SNodeOperations.isInstanceOf(SNodeOperations.getNodeAncestor(set, CONCEPTS.IStructure$y7, false, false), CONCEPTS.Set$5_) && ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(set, CONCEPTS.IStructure$y7, false, false), LINKS.elements$3FNB)).count() == 1) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(set, "You can not have duplicate Structure", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421163220", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(set, "You can not have duplicate set Structure", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421163220", null, errorTarget);
       }
     }
 

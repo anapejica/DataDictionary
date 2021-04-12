@@ -24,12 +24,11 @@ public class check_Field_NonTypesystemRule extends AbstractNonTypesystemRule_Run
   public check_Field_NonTypesystemRule() {
   }
   public void applyRule(final SNode field, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SPropertyOperations.getString(field, PROPS.name$MnvL).startsWith("_")) {
+    if (SPropertyOperations.getString(field, PROPS.name$MnvL).startsWith("_") || SPropertyOperations.getString(field, PROPS.name$MnvL).startsWith(" ")) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name can not start with _", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420812798", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name can not start with _ nor space!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420812798", null, errorTarget);
       }
-
     }
 
     if (SPropertyOperations.getString(field, PROPS.name$MnvL).length() < 3) {
@@ -52,7 +51,7 @@ public class check_Field_NonTypesystemRule extends AbstractNonTypesystemRule_Run
         if (field != fld && SPropertyOperations.getString(field, PROPS.name$MnvL).equals(SPropertyOperations.getString(fld, PROPS.name$MnvL))) {
           {
             final MessageTarget errorTarget = new NodeMessageTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name must be unique", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421085899", null, errorTarget);
+            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name must be  in the structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421085899", null, errorTarget);
           }
         }
       }
