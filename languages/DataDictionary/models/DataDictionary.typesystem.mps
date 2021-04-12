@@ -13,6 +13,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -269,7 +270,7 @@
             <node concept="3clFbS" id="6O4MREmZw06" role="3clFbx">
               <node concept="2MkqsV" id="6O4MREmZz7d" role="3cqZAp">
                 <node concept="Xl_RD" id="6O4MREmZz7p" role="2MkJ7o">
-                  <property role="Xl_RC" value="You must set unique name!" />
+                  <property role="Xl_RC" value="You must set unique name for structure!" />
                 </node>
                 <node concept="1YBJjd" id="6O4MREmZz87" role="1urrMF">
                   <ref role="1YBMHb" node="6O4MREmZoOQ" resolve="structureDefinition" />
@@ -309,7 +310,7 @@
         <node concept="3clFbS" id="6O4MREmZoOW" role="3clFbx">
           <node concept="Dpp1Q" id="6O4MREmZuLr" role="3cqZAp">
             <node concept="Xl_RD" id="6O4MREmZuLH" role="Dpw9R">
-              <property role="Xl_RC" value="You don't have all field definitions" />
+              <property role="Xl_RC" value="You don't have all field definitions in the structure" />
             </node>
             <node concept="1YBJjd" id="6O4MREmZuMC" role="1urrMF">
               <ref role="1YBMHb" node="6O4MREmZoOQ" resolve="structureDefinition" />
@@ -327,32 +328,49 @@
     <property role="TrG5h" value="check_Field" />
     <node concept="3clFbS" id="6O4MREn02fD" role="18ibNy">
       <node concept="3clFbJ" id="6O4MREn02fJ" role="3cqZAp">
-        <node concept="2OqwBi" id="6O4MREn02UE" role="3clFbw">
-          <node concept="2OqwBi" id="6O4MREn02qo" role="2Oq$k0">
-            <node concept="1YBJjd" id="6O4MREn02fV" role="2Oq$k0">
-              <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />
+        <node concept="22lmx$" id="2oP61_GwVmp" role="3clFbw">
+          <node concept="2OqwBi" id="2oP61_GwZcX" role="3uHU7w">
+            <node concept="2OqwBi" id="2oP61_GwWzR" role="2Oq$k0">
+              <node concept="1YBJjd" id="2oP61_GwWoR" role="2Oq$k0">
+                <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />
+              </node>
+              <node concept="3TrcHB" id="2oP61_GwXJx" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
             </node>
-            <node concept="3TrcHB" id="6O4MREn02$d" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            <node concept="liA8E" id="2oP61_Gx0CN" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+              <node concept="Xl_RD" id="2oP61_Gx5zP" role="37wK5m">
+                <property role="Xl_RC" value=" " />
+              </node>
             </node>
           </node>
-          <node concept="liA8E" id="6O4MREn03mS" role="2OqNvi">
-            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
-            <node concept="Xl_RD" id="6O4MREn03Kb" role="37wK5m">
-              <property role="Xl_RC" value="_" />
+          <node concept="2OqwBi" id="6O4MREn02UE" role="3uHU7B">
+            <node concept="2OqwBi" id="6O4MREn02qo" role="2Oq$k0">
+              <node concept="1YBJjd" id="6O4MREn02fV" role="2Oq$k0">
+                <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />
+              </node>
+              <node concept="3TrcHB" id="6O4MREn02$d" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6O4MREn03mS" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+              <node concept="Xl_RD" id="6O4MREn03Kb" role="37wK5m">
+                <property role="Xl_RC" value="_" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="3clFbS" id="6O4MREn02fL" role="3clFbx">
           <node concept="2MkqsV" id="6O4MREn047Y" role="3cqZAp">
             <node concept="Xl_RD" id="6O4MREn048a" role="2MkJ7o">
-              <property role="Xl_RC" value="Field name can not start with _" />
+              <property role="Xl_RC" value="Field name can not start with _ nor space!" />
             </node>
             <node concept="1YBJjd" id="6O4MREn049I" role="1urrMF">
               <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />
             </node>
           </node>
-          <node concept="3clFbH" id="6O4MREn049D" role="3cqZAp" />
         </node>
       </node>
       <node concept="3clFbH" id="6O4MREn1RBG" role="3cqZAp" />
@@ -360,7 +378,7 @@
         <node concept="3clFbS" id="6O4MREn0Fyl" role="3clFbx">
           <node concept="2MkqsV" id="6O4MREn0IXR" role="3cqZAp">
             <node concept="Xl_RD" id="6O4MREn0IY3" role="2MkJ7o">
-              <property role="Xl_RC" value="Field name must have more than 3 characters" />
+              <property role="Xl_RC" value="Field name must have more than 2 characters" />
             </node>
             <node concept="1YBJjd" id="6O4MREn0IZR" role="1urrMF">
               <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />
@@ -442,7 +460,7 @@
                 <node concept="3clFbS" id="6O4MREn0TH5" role="3clFbx">
                   <node concept="2MkqsV" id="6O4MREn16Nb" role="3cqZAp">
                     <node concept="Xl_RD" id="6O4MREn16Nq" role="2MkJ7o">
-                      <property role="Xl_RC" value="Field name must be unique" />
+                      <property role="Xl_RC" value="Field name must be  in the structure!" />
                     </node>
                     <node concept="1YBJjd" id="6O4MREn16O8" role="1urrMF">
                       <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />
@@ -644,7 +662,7 @@
         <node concept="3clFbS" id="6O4MREn0ylJ" role="3clFbx">
           <node concept="2MkqsV" id="6O4MREn0DmU" role="3cqZAp">
             <node concept="Xl_RD" id="6O4MREn0Dn6" role="2MkJ7o">
-              <property role="Xl_RC" value="There are duplicated structures" />
+              <property role="Xl_RC" value="There are duplicated non-exclusive specialization structures" />
             </node>
             <node concept="1YBJjd" id="6O4MREn0Don" role="1urrMF">
               <ref role="1YBMHb" node="6O4MREn0ylD" resolve="nonExclusiveSpecialization" />
@@ -791,7 +809,7 @@
         <node concept="3clFbS" id="6O4MREn1jYh" role="3clFbx">
           <node concept="2MkqsV" id="6O4MREn1pFk" role="3cqZAp">
             <node concept="Xl_RD" id="6O4MREn1pFw" role="2MkJ7o">
-              <property role="Xl_RC" value="You can not have duplicate Structure" />
+              <property role="Xl_RC" value="You can not have duplicate set Structure" />
             </node>
             <node concept="1YBJjd" id="6O4MREn1pGl" role="1urrMF">
               <ref role="1YBMHb" node="6O4MREn1jng" resolve="set" />
