@@ -19,7 +19,7 @@ There are several structure types:
 
 •	Set - collection of multiple values of one component and indicates that this component may appear repeatedly to the appropriate structure {a, b, c}.
 
-#MPS Project
+# MPS Project
 
 This is an example of the language for creating data dictionary. All concepts are covered which contains one complete data dictionary.
 When creating dictionary elements, certain constraints and rules are given, by which they respect certain requirements from the real system.
