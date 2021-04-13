@@ -121,7 +121,16 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
+      <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
+        <reference id="1216388525179" name="quickFix" index="QpYPw" />
+        <child id="1210784493590" name="actualArgument" index="3Coj4f" />
+      </concept>
+      <concept id="1210784384552" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntentionArgument" flags="ng" index="3CnSsL">
+        <reference id="1216386999476" name="quickFixArgument" index="QkamJ" />
+        <child id="1210784642750" name="value" index="3CoRuB" />
       </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
@@ -274,6 +283,15 @@
                 </node>
                 <node concept="1YBJjd" id="6O4MREmZz87" role="1urrMF">
                   <ref role="1YBMHb" node="6O4MREmZoOQ" resolve="structureDefinition" />
+                </node>
+                <node concept="3Cnw8n" id="6O4MREnc4JU" role="1urrFz">
+                  <ref role="QpYPw" node="6O4MREn1vxG" resolve="quick_fix_structure_def_unique_name" />
+                  <node concept="3CnSsL" id="6O4MREnc4WO" role="3Coj4f">
+                    <ref role="QkamJ" node="6O4MREn1vO_" resolve="structDef" />
+                    <node concept="2GrUjf" id="6O4MREnc4X1" role="3CoRuB">
+                      <ref role="2Gs0qQ" node="6O4MREmZv0x" resolve="structure" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -952,7 +970,7 @@
       <node concept="3clFbS" id="6O4MREn1vOP" role="2VODD2">
         <node concept="3clFbF" id="6O4MREn1vTp" role="3cqZAp">
           <node concept="Xl_RD" id="6O4MREn1vTo" role="3clFbG">
-            <property role="Xl_RC" value="Unique Structure Definition name" />
+            <property role="Xl_RC" value="Quick fix unique structure name!" />
           </node>
         </node>
       </node>

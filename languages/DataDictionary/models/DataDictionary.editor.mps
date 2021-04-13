@@ -228,6 +228,7 @@
         <property role="3F0ifm" value="&lt;" />
       </node>
       <node concept="3F2HdR" id="1frmgj2Kxu8" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="8l3b:1frmgj2KbZ0" resolve="elements" />
         <node concept="l2Vlx" id="1frmgj2Kxua" role="2czzBx" />
       </node>
@@ -892,7 +893,7 @@
             <node concept="3clFbS" id="2oP61_Gy$6A" role="2VODD2">
               <node concept="3clFbF" id="2oP61_Gy$br" role="3cqZAp">
                 <node concept="Xl_RD" id="2oP61_Gy$bq" role="3clFbG">
-                  <property role="Xl_RC" value="Creating new semantic domain..." />
+                  <property role="Xl_RC" value="Create New Semantic Domain" />
                 </node>
               </node>
             </node>
@@ -1052,7 +1053,7 @@
               <node concept="3clFbS" id="2oP61_Gz5SB" role="2VODD2">
                 <node concept="3clFbF" id="2oP61_Gz5Tf" role="3cqZAp">
                   <node concept="Xl_RD" id="2oP61_Gz5Te" role="3clFbG">
-                    <property role="Xl_RC" value="Creating aggregation" />
+                    <property role="Xl_RC" value="Create aggregation" />
                   </node>
                 </node>
               </node>
@@ -1144,7 +1145,7 @@
           <node concept="3clFbS" id="2oP61_GyGKb" role="2VODD2">
             <node concept="3clFbF" id="2oP61_GyGZj" role="3cqZAp">
               <node concept="Xl_RD" id="2oP61_GyGZi" role="3clFbG">
-                <property role="Xl_RC" value="Creating Set ..." />
+                <property role="Xl_RC" value="Create Set" />
               </node>
             </node>
           </node>
@@ -1234,7 +1235,7 @@
           <node concept="3clFbS" id="2oP61_GyNpf" role="2VODD2">
             <node concept="3clFbF" id="2oP61_GyNOm" role="3cqZAp">
               <node concept="Xl_RD" id="2oP61_GyNOl" role="3clFbG">
-                <property role="Xl_RC" value="Creating non-exclusive specialization" />
+                <property role="Xl_RC" value="Create Non-Exclusive Specialization" />
               </node>
             </node>
           </node>
@@ -1324,7 +1325,7 @@
           <node concept="3clFbS" id="2oP61_Gzc5B" role="2VODD2">
             <node concept="3clFbF" id="2oP61_Gze5G" role="3cqZAp">
               <node concept="Xl_RD" id="2oP61_Gze5F" role="3clFbG">
-                <property role="Xl_RC" value="Creating exclusive specialization" />
+                <property role="Xl_RC" value="Create Exclusive Specialization" />
               </node>
             </node>
           </node>
