@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fee6776-d8bd-4746-bf23-e863b6d12bc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.typesystem.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/check_ExclusiveSpecialization_NonTypesystemRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/check_ExclusiveSpecialization_NonTypesystemRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +167,20 @@
               <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionary" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -200,20 +207,6 @@
               <option name="myItemId" value="r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.typesystem.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="7855627377420032780" />
               <option name="myItemType" value="" />
@@ -222,6 +215,10 @@
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataDictionary" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
