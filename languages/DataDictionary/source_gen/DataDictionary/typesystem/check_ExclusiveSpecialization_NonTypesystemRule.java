@@ -26,7 +26,7 @@ public class check_ExclusiveSpecialization_NonTypesystemRule extends AbstractNon
     if (ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(exclusiveSpecialization, CONCEPTS.ISpecialization$E2, false, false), LINKS.elements$3FNB)).count() == 1 && SNodeOperations.isInstanceOf(SNodeOperations.getNodeAncestor(exclusiveSpecialization, CONCEPTS.ISpecialization$E2, false, false), CONCEPTS.ExclusiveSpecialization$OC)) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(exclusiveSpecialization, "There are duplicated structures!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420936420", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(exclusiveSpecialization, "There are duplicated exclusive specialization structures!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420936420", null, errorTarget);
       }
     }
   }

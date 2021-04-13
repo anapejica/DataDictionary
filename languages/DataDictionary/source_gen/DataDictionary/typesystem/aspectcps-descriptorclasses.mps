@@ -1192,7 +1192,7 @@
                           <uo k="s:originTrace" v="n:7855627377420936506" />
                         </node>
                         <node concept="Xl_RD" id="5h" role="37wK5m">
-                          <property role="Xl_RC" value="There are duplicated structures!" />
+                          <property role="Xl_RC" value="There are duplicated exclusive specialization structures!" />
                           <uo k="s:originTrace" v="n:7855627377420936432" />
                         </node>
                         <node concept="Xl_RD" id="5i" role="37wK5m">

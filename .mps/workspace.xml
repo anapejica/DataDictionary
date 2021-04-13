@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2fee6776-d8bd-4746-bf23-e863b6d12bc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/check_ExclusiveSpecialization_NonTypesystemRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/check_ExclusiveSpecialization_NonTypesystemRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +22,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="43bd8482-6bfb-4a28-829d-61ba732a7611/r:c0ba0158-be31-4832-936f-01133dbd3ac5(TempModule43bd8482-6bfb-4a28-829d-61ba732a7611/ConsoleModel_787345694977800)">
+            <model ref="aefe1824-1a17-4157-8068-99d54e1d06c1/r:5ff54c4e-169e-4057-a538-5018ff1b7724(TempModuleaefe1824-1a17-4157-8068-99d54e1d06c1/ConsoleModel_868900648054000)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -36,11 +42,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2oP61_GywmE">
-                <node concept="3balQm" id="2oP61_GywmF" role="aymYE" />
-                <node concept="2Clz$F" id="2oP61_GywmG" role="aymYO" />
-                <node concept="2_V_lH" id="2oP61_GywmH" role="1PhJh3">
-                  <ref role="2_V_lI" node="2oP61_GywmG" resolve="CommandHolder" />
+              <node concept="aymSD" id="10OKT5Xnjf2">
+                <node concept="3balQm" id="10OKT5Xnjf3" role="aymYE" />
+                <node concept="2Clz$F" id="10OKT5Xnjf4" role="aymYO" />
+                <node concept="2_V_lH" id="10OKT5Xnjf5" role="1PhJh3">
+                  <ref role="2_V_lI" node="10OKT5Xnjf4" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -156,6 +162,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,38 +174,10 @@
               <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,7 +187,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataDictionary" />
               <option name="myItemType" value="" />
@@ -218,18 +197,37 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.editor.mps]" />
+              <option name="myItemId" value="r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionary" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2753133244681175059" />
+              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7855627377420032780" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionary" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">

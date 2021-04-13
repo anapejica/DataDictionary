@@ -595,7 +595,7 @@
         <node concept="3clFbS" id="6O4MREn0o8h" role="3clFbx">
           <node concept="2MkqsV" id="6O4MREn0yj$" role="3cqZAp">
             <node concept="Xl_RD" id="6O4MREn0yjK" role="2MkJ7o">
-              <property role="Xl_RC" value="There are duplicated structures!" />
+              <property role="Xl_RC" value="There are duplicated exclusive specialization structures!" />
             </node>
             <node concept="1YBJjd" id="6O4MREn0ykU" role="1urrMF">
               <ref role="1YBMHb" node="6O4MREn0n18" resolve="exclusiveSpecialization" />
