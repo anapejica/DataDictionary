@@ -20,7 +20,7 @@ public class quick_fix_structure_def_unique_name_QuickFix extends QuickFix_Runti
     super(new SNodePointer("r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421187180"));
   }
   public String getDescription(SNode node) {
-    return "Unique Structure Definition name";
+    return "Quick fix unique structure name!";
   }
   public void execute(SNode node) {
     Integer num = ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(((SNode) quick_fix_structure_def_unique_name_QuickFix.this.getField("structDef")[0]), CONCEPTS.DataDictionary$r5, false, false), LINKS.structures$76Gs)).count();

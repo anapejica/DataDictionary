@@ -120,6 +120,7 @@
   </dependency>
   <dependency className="DataDictionary.typesystem.check_StructureDefinition_NonTypesystemRule">
     <classNode dependClassName="DataDictionary.behavior.IElement__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.errors.BaseQuickFixProvider" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />

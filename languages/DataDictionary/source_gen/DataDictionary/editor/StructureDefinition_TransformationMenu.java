@@ -36,7 +36,7 @@ public class StructureDefinition_TransformationMenu extends TransformationMenuBa
   @Override
   public List<TransformationMenuItem> createMenuItems(@NotNull TransformationMenuContext context) {
     context.getEditorMenuTrace().pushTraceInfo();
-    context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("default transformation menu for " + "StructureDefinition", new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2753133244681171469")));
+    context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("default transformation menu for " + "StructureDefinition", new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2898752122515491583")));
     try {
       return super.createMenuItems(context);
     } finally {
@@ -70,7 +70,7 @@ public class StructureDefinition_TransformationMenu extends TransformationMenuBa
         return super.createItem(context);
       }
       context.getEditorMenuTrace().pushTraceInfo();
-      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2753133244681172637")));
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2898752122515491943")));
       try {
         return super.createItem(context);
       } finally {
@@ -96,7 +96,7 @@ public class StructureDefinition_TransformationMenu extends TransformationMenuBa
         }
         context.getEditorMenuTrace().pushTraceInfo();
         try {
-          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2753133244681172931")));
+          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2898752122515492305")));
           item.setTraceInfo(context.getEditorMenuTrace().getTraceInfo());
         } finally {
           context.getEditorMenuTrace().popTraceInfo();
@@ -116,7 +116,7 @@ public class StructureDefinition_TransformationMenu extends TransformationMenuBa
         @Nullable
         @Override
         public String getLabelText(String pattern) {
-          return "Generating fields...";
+          return "Generate fields";
         }
 
         @Override

@@ -14,6 +14,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
+import jetbrains.mps.errors.BaseQuickFixProvider;
 import DataDictionary.behavior.IElement__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -30,6 +31,11 @@ public class check_StructureDefinition_NonTypesystemRule extends AbstractNonType
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(structureDefinition, "You must set unique name for structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420677581", null, errorTarget);
+          {
+            BaseQuickFixProvider intentionProvider = new BaseQuickFixProvider("DataDictionary.typesystem.quick_fix_structure_def_unique_name_QuickFix", "7855627377423961082", false);
+            intentionProvider.putArgument("structDef", structure);
+            _reporter_2309309498.addIntentionProvider(intentionProvider);
+          }
         }
       }
     }
