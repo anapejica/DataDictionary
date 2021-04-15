@@ -3,57 +3,160 @@
   <component name="ChangeListManager">
     <list default="true" id="2fee6776-d8bd-4746-bf23-e863b6d12bc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a$elementsListHandler_tbnvmd_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a$elementsListHandler_tbnvmd_b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/Aggregation_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_b0$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_b0$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_b0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_c0$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_c0$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_c0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_d0$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_d0$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_d0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a$TMP_Action_m077tv_a1a0$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a$TMP_Action_m077tv_a1a0$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a$TMP_Action_m077tv_a1a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a$TMP_Action_m077tv_a1a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a$TMP_Action_m077tv_a2a0$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a$TMP_Action_m077tv_a2a0$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a$TMP_Action_m077tv_a2a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a$TMP_Action_m077tv_a2a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0$TMP_Action_wl5ce8_a0a$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0$TMP_Action_wl5ce8_a0a$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0$TMP_Action_wl5ce8_a0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0$TMP_Action_wl5ce8_a0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/DataDictionary.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/DataDictionary.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/ActionAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/ActionAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/node_factories_FieldDefinition$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/node_factories_FieldDefinition$NodeFactory_7448261197722338604.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/node_factories_FieldDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/actions/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/behavior/Field__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/behavior/Field__BehaviorDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/behavior/IElement__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/behavior/IElement__BehaviorDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$semanticDomainDefinitionsListHandler_r8s0uu_b5a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$semanticDomainDefinitionsListHandler_r8s0uu_b5a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$structuresListHandler_r8s0uu_g0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a$structuresListHandler_r8s0uu_g0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_b0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_c0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_d0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_e0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_Action_m077tv_e0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_b0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_b0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_c0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_c0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_d0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_d0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_e0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_e0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_f0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_f0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_g0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_Action_m077tv_g0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a$TMP_Action_m077tv_a1a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a$TMP_Action_m077tv_a1a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_b0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a$TMP_Action_m077tv_a2a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a$TMP_Action_m077tv_a2a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_c0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_d0a$TMP_Action_m077tv_a3a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_d0a$TMP_Action_m077tv_a3a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0$TMP_SubMenu_m077tv_d0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_Action_m077tv_a1a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_Action_m077tv_a1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_a1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_b1a$TMP_Action_m077tv_a1b0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_b1a$TMP_Action_m077tv_a1b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_b1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_c1a$TMP_Action_m077tv_a2b0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_c1a$TMP_Action_m077tv_a2b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0$TMP_SubMenu_m077tv_c1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu$TMP_SubMenu_m077tv_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/DataDictionary_TransformationMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$fieldDefinitionsListHandler_k189df_a1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$fieldDefinitionsListHandler_k189df_a1a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$structureSingleRoleHandler_k189df_d0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a$structureSingleRoleHandler_k189df_d0a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0$TMP_Action_wl5ce8_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0$TMP_Action_wl5ce8_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu$TMP_SubMenu_wl5ce8_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/StructureDefinition_TransformationMenu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/quick_fix_structure_def_unique_name_QuickFix.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/quick_fix_structure_def_unique_name_QuickFix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/typesystem/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/Aggregation_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/Aggregation_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/DataDictionary_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/DataDictionary_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/DataDictionary_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/ExclusiveSpecialization_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/ExclusiveSpecialization_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/Field_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/Field_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/IElement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/NonExclusiveSpecialization_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/NonExclusiveSpecialization_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/Set_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/Set_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/StructureDefinition_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/StructureDefinition_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/StructureDefinition_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/TextGenAspectDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/TextGenAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/textGen/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/classes_gen/DataDictionary/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.actions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.actions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/sandbox/models/DataDictionary.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/sandbox/models/DataDictionary.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/sandbox/source_gen.caches/DataDictionary/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/sandbox/source_gen.caches/DataDictionary/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/sandbox/source_gen/DataDictionary/sandbox/null..dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/models/DataDictionary.textGen.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/sandbox/classes_gen/DataDictionary/sandbox/null..dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/actions/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/actions/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/actions/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/actions/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/behavior/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/behavior/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/constraints/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/constraints/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/typesystem/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/Aggregation_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/Aggregation_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/DataDictionary_TransformationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/DataDictionary_TransformationMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/textGen/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen.caches/DataDictionary/textGen/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/actions/ActionAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/actions/ActionAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/actions/node_factories_FieldDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/actions/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/actions/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/behavior/Field__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/behavior/Field__BehaviorDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/behavior/IElement__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/behavior/IElement__BehaviorDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/DataDictionary_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/DataDictionary_TransformationMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/StructureDefinition_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/StructureDefinition_TransformationMenu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/check_StructureDefinition_NonTypesystemRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/quick_fix_structure_def_unique_name_QuickFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/quick_fix_structure_def_unique_name_QuickFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/typesystem/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/Aggregation_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/DataDictionary_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/ExclusiveSpecialization_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/Field_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/IElement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/NonExclusiveSpecialization_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/Set_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/StructureDefinition_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/TextGenAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/textGen/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DataDictionary/source_gen/DataDictionary/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +169,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="afe3cb46-2c7d-445e-9713-b990291879e9/r:df799217-7f93-4331-bf06-188548f7d2bb(TempModuleafe3cb46-2c7d-445e-9713-b990291879e9/ConsoleModel_874155519186800)">
+            <model ref="0995eabf-2614-40aa-9276-93f8031a8378/r:885683c7-c0f0-4abf-890e-7452aff7347d(TempModule0995eabf-2614-40aa-9276-93f8031a8378/ConsoleModel_44971984774300)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -86,11 +189,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2wUrV9UquA8">
-                <node concept="3balQm" id="2wUrV9UquA9" role="aymYE" />
-                <node concept="2Clz$F" id="2wUrV9UquAa" role="aymYO" />
-                <node concept="2_V_lH" id="2wUrV9UquAb" role="1PhJh3">
-                  <ref role="2_V_lI" node="2wUrV9UquAa" resolve="CommandHolder" />
+              <node concept="aymSD" id="1PCU_zokLCw">
+                <node concept="3balQm" id="1PCU_zokLCx" role="aymYE" />
+                <node concept="2Clz$F" id="1PCU_zokLCy" role="aymYO" />
+                <node concept="2_V_lH" id="1PCU_zokLCz" role="1PhJh3">
+                  <ref role="2_V_lI" node="1PCU_zokLCy" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -206,8 +309,23 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionary" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ab9ddb41-23ee-4099-9988-e995662e660b" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionary" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataDictionary" />
@@ -232,85 +350,19 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:33b12169-782e-4bfd-a06a-8101f75252f3(DataDictionary.intentions) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ab9ddb41-23ee-4099-9988-e995662e660b" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ab9ddb41-23ee-4099-9988-e995662e660b" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataDictionary" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b7df9610-c91c-472e-b485-6407763b5456(DataDictionary)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/models/DataDictionary.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataDictionary" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,14 +383,9 @@
               <option name="myItemId" value="r:70331bfd-bacd-4f65-8b5e-8eed05e18d61(DataDictionary.sandbox) in IdeaFile[path: C:/Users/user/source/repos/DataDictionary/languages/DataDictionary/sandbox/models/DataDictionary.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2898752122515983344" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="FileSystem" />
     </panes>
   </component>
@@ -350,7 +397,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/softverski-zahtevi-master/softverski-zahtevi-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

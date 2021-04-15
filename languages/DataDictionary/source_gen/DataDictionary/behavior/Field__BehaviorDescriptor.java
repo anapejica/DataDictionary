@@ -23,8 +23,9 @@ public final class Field__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<Void> createNewFieldDef_id6ttyxz4A9$r = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("createNewFieldDef").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4A9$r").build(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
   public static final SMethod<Boolean> fieldNameAlreadyExist_id6ttyxz4A9A4 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.class)).name("fieldNameAlreadyExist").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4A9A4").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<Integer> getFieldCount_id1frmgj2KeNS = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1frmgj2KeNS").build();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(createNewFieldDef_id6ttyxz4A9$r, fieldNameAlreadyExist_id6ttyxz4A9A4);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(createNewFieldDef_id6ttyxz4A9$r, fieldNameAlreadyExist_id6ttyxz4A9A4, getFieldCount_id1frmgj2KeNS);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
@@ -33,6 +34,9 @@ public final class Field__BehaviorDescriptor extends BaseBHDescriptor {
   }
   /*package*/ static Boolean fieldNameAlreadyExist_id6ttyxz4A9A4(@NotNull SNode __thisNode__, SNode field) {
     return false;
+  }
+  /*package*/ static int getFieldCount_id1frmgj2KeNS(@NotNull SNode __thisNode__) {
+    return 1;
   }
 
   /*package*/ Field__BehaviorDescriptor() {
@@ -55,6 +59,8 @@ public final class Field__BehaviorDescriptor extends BaseBHDescriptor {
         return null;
       case 1:
         return (T) ((Boolean) fieldNameAlreadyExist_id6ttyxz4A9A4(node, (SNode) parameters[0]));
+      case 2:
+        return (T) ((Integer) getFieldCount_id1frmgj2KeNS(node));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
