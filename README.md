@@ -39,17 +39,19 @@ Also, in case some of these rules are violated, it is offered automatic correcti
 
 - If set has more than one component, it must use aggregation inside a set.
 
-Two constraints are defined:
+Three constraints are defined:
 
 - Aggregation_Constraints
 
 - Set_Constraint
 
+-Field_Constraint
+
 Node of type Aggreagation can not be parent to a node of type Aggreagtion and node of type Set can only be parent to node which type is Aggregation or Field.
 
-Intention concept is used for creating aggregation or set structure in data dictionary.
+Intention concept is used for creating aggregation or parametrized structure in data dictionary.
 
 Every field in data dictionary has field definition witch describes that field. Field definition contains reference of field, constraint related to that field and a domain from which the field takes values.
 Generating filed definitions for all fields in structure is achieved by using behavior concept.
 
-Project has two examples of using transformation menu: one for creating semantic domain/structure/field definitions in data dictionary and another for creating field definitions for every structure in data dictionary. User can choose to generate definitions only for fields in the selected structure or for all fileds that data dictionary contains.
+Project has one example of using transformation menu.
