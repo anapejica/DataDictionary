@@ -1761,7 +1761,7 @@
                                   <uo k="s:originTrace" v="n:7855627377421085960" />
                                 </node>
                                 <node concept="Xl_RD" id="8a" role="37wK5m">
-                                  <property role="Xl_RC" value="Field name must be  in the structure!" />
+                                  <property role="Xl_RC" value="Field name must be in the structure!" />
                                   <uo k="s:originTrace" v="n:7855627377421085914" />
                                 </node>
                                 <node concept="Xl_RD" id="8b" role="37wK5m">

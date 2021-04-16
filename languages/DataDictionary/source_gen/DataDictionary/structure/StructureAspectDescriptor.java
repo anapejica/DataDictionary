@@ -147,7 +147,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/7855627377419257343");
     b.version(2);
     b.aggregate("structures", 0x6d04cb7a96eae25dL).target(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L).optional(true).ordered(true).multiple(true).origin("7855627377419412061").done();
-    b.aggregate("semanticDomainDefinitions", 0x6d04cb7a96eae25fL).target(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcfL).optional(true).ordered(true).multiple(true).origin("7855627377419412063").done();
+    b.aggregate("predefinedDomains", 0x10fda790cc6b60bL).target(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfceL).optional(true).ordered(true).multiple(true).origin("76519932128835083").done();
+    b.aggregate("semanticDomains", 0x6d04cb7a96eae25fL).target(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcfL).optional(true).ordered(true).multiple(true).origin("7855627377419412063").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDate() {

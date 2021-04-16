@@ -51,7 +51,7 @@ public class check_Field_NonTypesystemRule extends AbstractNonTypesystemRule_Run
         if (field != fld && SPropertyOperations.getString(field, PROPS.name$MnvL).equals(SPropertyOperations.getString(fld, PROPS.name$MnvL))) {
           {
             final MessageTarget errorTarget = new NodeMessageTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name must be  in the structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421085899", null, errorTarget);
+            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name must be in the structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421085899", null, errorTarget);
           }
         }
       }

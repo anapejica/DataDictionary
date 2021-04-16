@@ -63,10 +63,17 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1frmgj2KbZT" resolve="StructureDefinition" />
     </node>
+    <node concept="1TJgyj" id="4fQB$cLFob" role="1TKVEi">
+      <property role="IQ2ns" value="76519932128835083" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="predefinedDomains" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1frmgj2KbZe" resolve="PredefinedDomain" />
+    </node>
     <node concept="1TJgyj" id="6O4MREmUI9v" role="1TKVEi">
       <property role="IQ2ns" value="7855627377419412063" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="semanticDomainDefinitions" />
+      <property role="20kJfa" value="semanticDomains" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1frmgj2KbZf" resolve="SemanticDomainDefinition" />
     </node>

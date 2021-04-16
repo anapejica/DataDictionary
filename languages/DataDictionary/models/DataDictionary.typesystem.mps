@@ -478,7 +478,7 @@
                 <node concept="3clFbS" id="6O4MREn0TH5" role="3clFbx">
                   <node concept="2MkqsV" id="6O4MREn16Nb" role="3cqZAp">
                     <node concept="Xl_RD" id="6O4MREn16Nq" role="2MkJ7o">
-                      <property role="Xl_RC" value="Field name must be  in the structure!" />
+                      <property role="Xl_RC" value="Field name must be in the structure!" />
                     </node>
                     <node concept="1YBJjd" id="6O4MREn16O8" role="1urrMF">
                       <ref role="1YBMHb" node="6O4MREn02fF" resolve="field" />

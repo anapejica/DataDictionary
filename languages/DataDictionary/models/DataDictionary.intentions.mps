@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="8l3b" ref="r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -68,7 +68,6 @@
       </concept>
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
-      <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
       <concept id="1192794782375" name="jetbrains.mps.lang.intentions.structure.DescriptionBlock" flags="in" index="2S6ZIM" />
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
@@ -120,98 +119,6 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
   </registry>
-  <node concept="2S6QgY" id="2oP61_Gxgqb">
-    <property role="TrG5h" value="newAggregation" />
-    <ref role="2ZfgGC" to="8l3b:6O4MREmU8nZ" resolve="DataDictionary" />
-    <node concept="2S6ZIM" id="2oP61_Gxgqc" role="2ZfVej">
-      <node concept="3clFbS" id="2oP61_Gxgqd" role="2VODD2">
-        <node concept="3clFbF" id="2oP61_Gxgvh" role="3cqZAp">
-          <node concept="Xl_RD" id="2oP61_Gxgvg" role="3clFbG">
-            <property role="Xl_RC" value="Create New Aggregation" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="2oP61_Gxgqe" role="2ZfgGD">
-      <node concept="3clFbS" id="2oP61_Gxgqf" role="2VODD2">
-        <node concept="3cpWs8" id="2oP61_Gxg_X" role="3cqZAp">
-          <node concept="3cpWsn" id="2oP61_GxgA0" role="3cpWs9">
-            <property role="TrG5h" value="nodeAgg" />
-            <node concept="3Tqbb2" id="2oP61_Gxg_W" role="1tU5fm">
-              <ref role="ehGHo" to="8l3b:1frmgj2KbZ8" resolve="Aggregation" />
-            </node>
-            <node concept="2ShNRf" id="2oP61_GxgBx" role="33vP2m">
-              <node concept="3zrR0B" id="2oP61_GxhNm" role="2ShVmc">
-                <node concept="3Tqbb2" id="2oP61_GxhNo" role="3zrR0E">
-                  <ref role="ehGHo" to="8l3b:1frmgj2KbZ8" resolve="Aggregation" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="2oP61_GxhOi" role="3cqZAp">
-          <node concept="3cpWsn" id="2oP61_GxhOl" role="3cpWs9">
-            <property role="TrG5h" value="nodeStrDef" />
-            <node concept="3Tqbb2" id="2oP61_GxhOg" role="1tU5fm">
-              <ref role="ehGHo" to="8l3b:1frmgj2KbZT" resolve="StructureDefinition" />
-            </node>
-            <node concept="2ShNRf" id="2oP61_GxhPC" role="33vP2m">
-              <node concept="3zrR0B" id="2oP61_GxhXj" role="2ShVmc">
-                <node concept="3Tqbb2" id="2oP61_GxhXl" role="3zrR0E">
-                  <ref role="ehGHo" to="8l3b:1frmgj2KbZT" resolve="StructureDefinition" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2oP61_GxhYf" role="3cqZAp">
-          <node concept="37vLTI" id="2oP61_GxizT" role="3clFbG">
-            <node concept="2OqwBi" id="2oP61_Gxi6l" role="37vLTJ">
-              <node concept="37vLTw" id="2oP61_GxhYd" role="2Oq$k0">
-                <ref role="3cqZAo" node="2oP61_GxhOl" resolve="nodeStrDef" />
-              </node>
-              <node concept="3TrcHB" id="2oP61_Gxifu" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="2oP61_GxjJP" role="37vLTx">
-              <property role="Xl_RC" value="N/A" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2oP61_GxjLy" role="3cqZAp">
-          <node concept="37vLTI" id="2oP61_Gxkl7" role="3clFbG">
-            <node concept="37vLTw" id="2oP61_Gxkny" role="37vLTx">
-              <ref role="3cqZAo" node="2oP61_GxgA0" resolve="nodeAgg" />
-            </node>
-            <node concept="2OqwBi" id="2oP61_Gxk3y" role="37vLTJ">
-              <node concept="37vLTw" id="2oP61_GxjVs" role="2Oq$k0">
-                <ref role="3cqZAo" node="2oP61_GxhOl" resolve="nodeStrDef" />
-              </node>
-              <node concept="3TrEf2" id="2oP61_GxkcF" role="2OqNvi">
-                <ref role="3Tt5mk" to="8l3b:1frmgj2KbZW" resolve="structure" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2oP61_Gxksn" role="3cqZAp">
-          <node concept="2OqwBi" id="2oP61_Gxmk4" role="3clFbG">
-            <node concept="2OqwBi" id="2oP61_Gxk$f" role="2Oq$k0">
-              <node concept="2Sf5sV" id="2oP61_Gxksm" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="2oP61_GxkHp" role="2OqNvi">
-                <ref role="3TtcxE" to="8l3b:6O4MREmUI9t" resolve="structures" />
-              </node>
-            </node>
-            <node concept="TSZUe" id="2oP61_GxoeL" role="2OqNvi">
-              <node concept="37vLTw" id="2oP61_GxoC0" role="25WWJ7">
-                <ref role="3cqZAo" node="2oP61_GxhOl" resolve="nodeStrDef" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="3dkpOd" id="2oP61_Gxpzl">
     <property role="TrG5h" value="createStructureParametrized" />
     <ref role="2ZfgGC" to="8l3b:6O4MREmU8nZ" resolve="DataDictionary" />
