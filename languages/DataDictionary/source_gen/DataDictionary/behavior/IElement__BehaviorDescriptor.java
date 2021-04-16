@@ -21,7 +21,7 @@ import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 public final class IElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfbcL, "DataDictionary.structure.IElement");
 
-  public static final SMethod<Integer> getFieldCount_id1frmgj2KeNS = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(12, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1frmgj2KeNS").build();
+  public static final SMethod<Integer> getFieldCount_id1frmgj2KeNS = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFieldCount").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1frmgj2KeNS").build();
   public static final SMethod<Void> createNewFieldDef_id6ttyxz4A9$r = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("createNewFieldDef").modifiers(SModifiersImpl.create(12, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4A9$r").build(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
   public static final SMethod<Boolean> fieldNameAlreadyExist_id6ttyxz4A9A4 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.class)).name("fieldNameAlreadyExist").modifiers(SModifiersImpl.create(12, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4A9A4").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
@@ -30,6 +30,9 @@ public final class IElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
+  /*package*/ static int getFieldCount_id1frmgj2KeNS(@NotNull SNode __thisNode__) {
+    return 0;
+  }
 
   /*package*/ IElement__BehaviorDescriptor() {
   }
@@ -46,6 +49,8 @@ public final class IElement__BehaviorDescriptor extends BaseBHDescriptor {
       throw new BHMethodNotFoundException(this, method);
     }
     switch (methodIndex) {
+      case 0:
+        return (T) ((Integer) getFieldCount_id1frmgj2KeNS(node));
       default:
         throw new BHMethodNotFoundException(this, method);
     }

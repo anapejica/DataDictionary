@@ -14,7 +14,7 @@ public class node_factories_StuctureDefinition {
   public static class NodeFactory_7448261197722352562 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
       SNode DDnode = (SNode) enclosingNode;
-      SPropertyOperations.assign(newNode, PROPS.name$MnvL, "Structure-" + ((int) DataDictionary__BehaviorDescriptor.getNumberOfStructure_id6O4MREmX0Ep.invoke(DDnode) + 1));
+      SPropertyOperations.assign(newNode, PROPS.name$MnvL, "Name" + ((int) DataDictionary__BehaviorDescriptor.getNumberOfStructure_id6O4MREmX0Ep.invoke(DDnode) + 1));
     }
   }
 

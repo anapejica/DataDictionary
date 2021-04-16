@@ -107,7 +107,7 @@
   </node>
   <node concept="1TIwiD" id="1frmgj2KbZb">
     <property role="EcuMT" value="1430835183602417611" />
-    <property role="TrG5h" value="DomainDefinition" />
+    <property role="TrG5h" value="AbstractDomain" />
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="Abstract Domain" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -120,7 +120,7 @@
     <property role="TrG5h" value="PredefinedDomain" />
     <property role="R4oN_" value="Predefined domain" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="1frmgj2KbZb" resolve="DomainDefinition" />
+    <ref role="1TJDcQ" node="1frmgj2KbZb" resolve="AbstractDomain" />
   </node>
   <node concept="1TIwiD" id="1frmgj2KbZf">
     <property role="EcuMT" value="1430835183602417615" />
@@ -199,7 +199,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="domain" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1frmgj2KbZb" resolve="DomainDefinition" />
+      <ref role="20lvS9" node="1frmgj2KbZb" resolve="AbstractDomain" />
     </node>
     <node concept="1TJgyj" id="1frmgj2KbZv" role="1TKVEi">
       <property role="IQ2ns" value="1430835183602417631" />
@@ -249,7 +249,7 @@
     <property role="EcuMT" value="1430835183602417654" />
     <property role="TrG5h" value="SemanticDomain" />
     <property role="R4oN_" value="Add new semantic domain" />
-    <ref role="1TJDcQ" node="1frmgj2KbZb" resolve="DomainDefinition" />
+    <ref role="1TJDcQ" node="1frmgj2KbZb" resolve="AbstractDomain" />
     <node concept="1TJgyj" id="1frmgj2KbZR" role="1TKVEi">
       <property role="IQ2ns" value="1430835183602417655" />
       <property role="20kJfa" value="semanticDomainDef" />

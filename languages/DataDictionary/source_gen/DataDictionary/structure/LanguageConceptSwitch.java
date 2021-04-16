@@ -9,12 +9,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int Aggregation = 0;
-  public static final int Boolean = 1;
-  public static final int Constraint = 2;
-  public static final int DataDictionary = 3;
-  public static final int Date = 4;
-  public static final int DomainDefinition = 5;
+  public static final int AbstractDomain = 0;
+  public static final int Aggregation = 1;
+  public static final int Boolean = 2;
+  public static final int Constraint = 3;
+  public static final int DataDictionary = 4;
+  public static final int Date = 5;
   public static final int Double = 6;
   public static final int ExclusiveSpecialization = 7;
   public static final int Field = 8;
@@ -33,12 +33,12 @@ public final class LanguageConceptSwitch {
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xb7df9610c91c472eL, 0xb4856407763b5456L);
+    builder.put(0x13db5904c2c0bfcbL, AbstractDomain);
     builder.put(0x13db5904c2c0bfc8L, Aggregation);
     builder.put(0x13db5904c2c0bfd7L, Boolean);
     builder.put(0x13db5904c2c0bfd4L, Constraint);
     builder.put(0x6d04cb7a96e885ffL, DataDictionary);
     builder.put(0x13db5904c2c0bfd8L, Date);
-    builder.put(0x13db5904c2c0bfcbL, DomainDefinition);
     builder.put(0x13db5904c2c0bfd9L, Double);
     builder.put(0x13db5904c2c0bff3L, ExclusiveSpecialization);
     builder.put(0x13db5904c2c0bfe2L, Field);

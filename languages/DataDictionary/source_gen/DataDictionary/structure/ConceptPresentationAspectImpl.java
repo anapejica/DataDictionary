@@ -9,12 +9,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_AbstractDomain;
   private ConceptPresentation props_Aggregation;
   private ConceptPresentation props_Boolean;
   private ConceptPresentation props_Constraint;
   private ConceptPresentation props_DataDictionary;
   private ConceptPresentation props_Date;
-  private ConceptPresentation props_DomainDefinition;
   private ConceptPresentation props_Double;
   private ConceptPresentation props_ExclusiveSpecialization;
   private ConceptPresentation props_Field;
@@ -36,6 +36,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.AbstractDomain:
+        if (props_AbstractDomain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Abstract Domain");
+          props_AbstractDomain = cpb.create();
+        }
+        return props_AbstractDomain;
       case LanguageConceptSwitch.Aggregation:
         if (props_Aggregation == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -75,13 +82,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Date = cpb.create();
         }
         return props_Date;
-      case LanguageConceptSwitch.DomainDefinition:
-        if (props_DomainDefinition == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Abstract Domain");
-          props_DomainDefinition = cpb.create();
-        }
-        return props_DomainDefinition;
       case LanguageConceptSwitch.Double:
         if (props_Double == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -200,10 +200,15 @@
     <node concept="13i0hz" id="1frmgj2KeNS" role="13h7CS">
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="getFieldCount" />
-      <property role="13i0iv" value="true" />
       <node concept="3Tm1VV" id="1frmgj2KeNT" role="1B3o_S" />
       <node concept="10Oyi0" id="1frmgj2KeOE" role="3clF45" />
-      <node concept="3clFbS" id="1frmgj2KeNV" role="3clF47" />
+      <node concept="3clFbS" id="1frmgj2KeNV" role="3clF47">
+        <node concept="3cpWs6" id="4Zr7TuaX6_d" role="3cqZAp">
+          <node concept="3cmrfG" id="4Zr7TuaX6_E" role="3cqZAk">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="6ttyxz4A9$r" role="13h7CS">
       <property role="13i0iv" value="true" />
@@ -405,7 +410,7 @@
                     <node concept="2ShNRf" id="6ttyxz4BKT8" role="37vLTx">
                       <node concept="3zrR0B" id="6ttyxz4BKT6" role="2ShVmc">
                         <node concept="3Tqbb2" id="6ttyxz4BKT7" role="3zrR0E">
-                          <ref role="ehGHo" to="8l3b:1frmgj2KbZb" resolve="DomainDefinition" />
+                          <ref role="ehGHo" to="8l3b:1frmgj2KbZb" resolve="AbstractDomain" />
                         </node>
                       </node>
                     </node>

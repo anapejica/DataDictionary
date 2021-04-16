@@ -62,7 +62,7 @@ public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
         SNode field = ((SNode) e);
         SNode fieldDef = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdcL, "DataDictionary.structure.FieldDefiniton"));
         SLinkOperations.setTarget(fieldDef, LINKS.field$4fuu, field);
-        SLinkOperations.setTarget(fieldDef, LINKS.domain$426_, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL, "DataDictionary.structure.DomainDefinition")));
+        SLinkOperations.setTarget(fieldDef, LINKS.domain$426_, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL, "DataDictionary.structure.AbstractDomain")));
         SLinkOperations.setTarget(fieldDef, LINKS.constraint$47vW, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd4L, "DataDictionary.structure.Constraint")));
         SNodeOperations.insertNextSiblingChild(fieldDef, fieldDef);
       } else {

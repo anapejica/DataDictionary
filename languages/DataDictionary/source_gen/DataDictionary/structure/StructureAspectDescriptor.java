@@ -13,12 +13,12 @@ import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
+  /*package*/ final ConceptDescriptor myConceptAbstractDomain = createDescriptorForAbstractDomain();
   /*package*/ final ConceptDescriptor myConceptAggregation = createDescriptorForAggregation();
   /*package*/ final ConceptDescriptor myConceptBoolean = createDescriptorForBoolean();
   /*package*/ final ConceptDescriptor myConceptConstraint = createDescriptorForConstraint();
   /*package*/ final ConceptDescriptor myConceptDataDictionary = createDescriptorForDataDictionary();
   /*package*/ final ConceptDescriptor myConceptDate = createDescriptorForDate();
-  /*package*/ final ConceptDescriptor myConceptDomainDefinition = createDescriptorForDomainDefinition();
   /*package*/ final ConceptDescriptor myConceptDouble = createDescriptorForDouble();
   /*package*/ final ConceptDescriptor myConceptExclusiveSpecialization = createDescriptorForExclusiveSpecialization();
   /*package*/ final ConceptDescriptor myConceptField = createDescriptorForField();
@@ -48,13 +48,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAggregation, myConceptBoolean, myConceptConstraint, myConceptDataDictionary, myConceptDate, myConceptDomainDefinition, myConceptDouble, myConceptExclusiveSpecialization, myConceptField, myConceptFieldDefiniton, myConceptIElement, myConceptISpecialization, myConceptIStructure, myConceptInteger, myConceptNonExclusiveSpecialization, myConceptPredefinedDomain, myConceptSemanticDomain, myConceptSemanticDomainDefinition, myConceptSet, myConceptStructureDefinition, myConceptText);
+    return Arrays.asList(myConceptAbstractDomain, myConceptAggregation, myConceptBoolean, myConceptConstraint, myConceptDataDictionary, myConceptDate, myConceptDouble, myConceptExclusiveSpecialization, myConceptField, myConceptFieldDefiniton, myConceptIElement, myConceptISpecialization, myConceptIStructure, myConceptInteger, myConceptNonExclusiveSpecialization, myConceptPredefinedDomain, myConceptSemanticDomain, myConceptSemanticDomainDefinition, myConceptSet, myConceptStructureDefinition, myConceptText);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
+      case LanguageConceptSwitch.AbstractDomain:
+        return myConceptAbstractDomain;
       case LanguageConceptSwitch.Aggregation:
         return myConceptAggregation;
       case LanguageConceptSwitch.Boolean:
@@ -65,8 +67,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptDataDictionary;
       case LanguageConceptSwitch.Date:
         return myConceptDate;
-      case LanguageConceptSwitch.DomainDefinition:
-        return myConceptDomainDefinition;
       case LanguageConceptSwitch.Double:
         return myConceptDouble;
       case LanguageConceptSwitch.ExclusiveSpecialization:
@@ -107,6 +107,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
+  private static ConceptDescriptor createDescriptorForAbstractDomain() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DataDictionary", "AbstractDomain", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL);
+    b.class_(false, true, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/1430835183602417611");
+    b.version(2);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForAggregation() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DataDictionary", "Aggregation", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfc8L);
     b.class_(false, false, false);
@@ -149,14 +157,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/1430835183602417624");
     b.version(2);
     b.alias("Date");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForDomainDefinition() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DataDictionary", "DomainDefinition", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL);
-    b.class_(false, true, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/1430835183602417611");
-    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDouble() {
@@ -239,7 +239,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForPredefinedDomain() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DataDictionary", "PredefinedDomain", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfceL);
     b.class_(false, true, false);
-    b.super_("DataDictionary.structure.DomainDefinition", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL);
+    b.super_("DataDictionary.structure.AbstractDomain", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL);
     b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/1430835183602417614");
     b.version(2);
     return b.create();
@@ -247,7 +247,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForSemanticDomain() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DataDictionary", "SemanticDomain", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff6L);
     b.class_(false, false, false);
-    b.super_("DataDictionary.structure.DomainDefinition", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL);
+    b.super_("DataDictionary.structure.AbstractDomain", 0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL);
     b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/1430835183602417654");
     b.version(2);
     b.associate("semanticDomainDef", 0x13db5904c2c0bff7L).target(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcfL).optional(false).origin("1430835183602417655").done();
