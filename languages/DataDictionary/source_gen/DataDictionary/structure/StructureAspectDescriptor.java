@@ -137,7 +137,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:b6776c60-70af-4738-bba7-47e6924b1879(DataDictionary.structure)/1430835183602417620");
     b.version(2);
-    b.property("descriotion", 0x13db5904c2c0bfd5L).type(PrimitiveTypeId.STRING).origin("1430835183602417621").done();
+    b.property("description", 0x13db5904c2c0bfd5L).type(PrimitiveTypeId.STRING).origin("1430835183602417621").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDataDictionary() {

@@ -45,11 +45,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.descriotion$40a_;
+      final SProperty property = PROPS.description$40a_;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no descriotion>");
-      editorCell.setCellId("property_descriotion");
+      editorCell.setDefaultText("<no description>");
+      editorCell.setCellId("property_description");
       editorCell.setBig(true);
       setCellContext(editorCell);
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
@@ -71,7 +71,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty descriotion$40a_ = MetaAdapterFactory.getProperty(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd4L, 0x13db5904c2c0bfd5L, "descriotion");
+    /*package*/ static final SProperty description$40a_ = MetaAdapterFactory.getProperty(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd4L, 0x13db5904c2c0bfd5L, "description");
   }
 
   private static final class CONCEPTS {

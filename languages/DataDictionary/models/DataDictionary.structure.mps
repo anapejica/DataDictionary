@@ -158,7 +158,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1frmgj2KbZl" role="1TKVEl">
       <property role="IQ2nx" value="1430835183602417621" />
-      <property role="TrG5h" value="descriotion" />
+      <property role="TrG5h" value="description" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

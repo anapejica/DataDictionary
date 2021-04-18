@@ -11,9 +11,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SConcept;
 
 public class check_DataDictionary_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
@@ -24,6 +28,59 @@ public class check_DataDictionary_NonTypesystemRule extends AbstractNonTypesyste
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(dataDictionary, "Data Dictionary must have name", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420036537", null, errorTarget);
+      }
+    }
+    if (ListSequence.fromList(SLinkOperations.getChildren(dataDictionary, LINKS.predefinedDomains$G7yL)).isEmpty()) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(dataDictionary, "You must define predefined domains!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "9060171934926750506", null, errorTarget);
+      }
+    }
+    for (SNode pDomain : SLinkOperations.getChildren(dataDictionary, LINKS.predefinedDomains$G7yL)) {
+      SNode current = pDomain;
+      String instance = null;
+      if (SNodeOperations.isInstanceOf(current, CONCEPTS.Boolean$8z)) {
+        instance = "Boolean";
+      }
+      if (SNodeOperations.isInstanceOf(current, CONCEPTS.Text$av)) {
+        instance = "Text";
+      }
+      if (SNodeOperations.isInstanceOf(current, CONCEPTS.Date$92)) {
+        instance = "Date";
+      }
+      if (SNodeOperations.isInstanceOf(current, CONCEPTS.Double$9x)) {
+        instance = "Double";
+      }
+      if (SNodeOperations.isInstanceOf(current, CONCEPTS.Integer$a0)) {
+        instance = "Integer";
+      }
+      for (SNode node : SLinkOperations.getChildren(dataDictionary, LINKS.predefinedDomains$G7yL)) {
+        if (node != current) {
+          if (SNodeOperations.isInstanceOf(node, CONCEPTS.Boolean$8z) && instance == "Boolean") {
+            {
+              final MessageTarget errorTarget = new NodeMessageTarget();
+              IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(node, "Duplicate boolean domains!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "9060171934927482846", null, errorTarget);
+            }
+          }
+          if (SNodeOperations.isInstanceOf(node, CONCEPTS.Text$av) && instance == "Text") {
+            {
+              final MessageTarget errorTarget = new NodeMessageTarget();
+              IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(node, "Duplicate text domains!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "9060171934927547025", null, errorTarget);
+            }
+          }
+          if (SNodeOperations.isInstanceOf(node, CONCEPTS.Double$9x) && instance == "Double") {
+            {
+              final MessageTarget errorTarget = new NodeMessageTarget();
+              IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(node, "Duplicate double domains!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "9060171934927640434", null, errorTarget);
+            }
+          }
+          if (SNodeOperations.isInstanceOf(node, CONCEPTS.Integer$a0) && instance == "Integer") {
+            {
+              final MessageTarget errorTarget = new NodeMessageTarget();
+              IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(node, "Duplicate integer domains!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "9060171934927651048", null, errorTarget);
+            }
+          }
+        }
       }
     }
   }
@@ -44,7 +101,16 @@ public class check_DataDictionary_NonTypesystemRule extends AbstractNonTypesyste
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink predefinedDomains$G7yL = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x6d04cb7a96e885ffL, 0x10fda790cc6b60bL, "predefinedDomains");
+  }
+
   private static final class CONCEPTS {
+    /*package*/ static final SConcept Boolean$8z = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd7L, "DataDictionary.structure.Boolean");
+    /*package*/ static final SConcept Text$av = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdbL, "DataDictionary.structure.Text");
+    /*package*/ static final SConcept Date$92 = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd8L, "DataDictionary.structure.Date");
+    /*package*/ static final SConcept Double$9x = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd9L, "DataDictionary.structure.Double");
+    /*package*/ static final SConcept Integer$a0 = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfdaL, "DataDictionary.structure.Integer");
     /*package*/ static final SConcept DataDictionary$r5 = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x6d04cb7a96e885ffL, "DataDictionary.structure.DataDictionary");
   }
 }

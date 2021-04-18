@@ -64,7 +64,7 @@ public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
         SLinkOperations.setTarget(fieldDef, LINKS.field$4fuu, field);
         SLinkOperations.setTarget(fieldDef, LINKS.domain$426_, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcbL, "DataDictionary.structure.AbstractDomain")));
         SLinkOperations.setTarget(fieldDef, LINKS.constraint$47vW, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfd4L, "DataDictionary.structure.Constraint")));
-        SNodeOperations.insertNextSiblingChild(fieldDef, fieldDef);
+        ListSequence.fromList(listFieldDef).addElement(fieldDef);
       } else {
         SNode structure = ((SNode) e);
         IElement__BehaviorDescriptor.createNewFieldDef_id6ttyxz4A9$r.invoke(structure, listFieldDef);
@@ -79,7 +79,7 @@ public final class IStructure__BehaviorDescriptor extends BaseBHDescriptor {
           return true;
         }
       } else {
-        SNode structure = ((SNode) e);
+        SNode structure = (SNode) e;
         IElement__BehaviorDescriptor.fieldNameAlreadyExist_id6ttyxz4A9A4.invoke(structure, field);
       }
     }

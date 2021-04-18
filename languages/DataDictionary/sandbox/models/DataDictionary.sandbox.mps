@@ -16,7 +16,7 @@
       </concept>
       <concept id="1430835183602417608" name="DataDictionary.structure.Aggregation" flags="ng" index="3h6Yrc" />
       <concept id="1430835183602417620" name="DataDictionary.structure.Constraint" flags="ng" index="3h6Yrg">
-        <property id="1430835183602417621" name="descriotion" index="3h6Yrh" />
+        <property id="1430835183602417621" name="description" index="3h6Yrh" />
       </concept>
       <concept id="1430835183602417623" name="DataDictionary.structure.Boolean" flags="ng" index="3h6Yrj" />
       <concept id="1430835183602417628" name="DataDictionary.structure.FieldDefiniton" flags="ng" index="3h6Yro">
@@ -87,6 +87,39 @@
         <node concept="3h6YrA" id="4fQB$cNrRc" role="3h6Yr4">
           <property role="TrG5h" value="Studies" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3VV4U5" id="7QWc_WToq0G">
+    <property role="TrG5h" value="d" />
+    <node concept="3h6Yrb" id="7QWc_WToq0H" role="3VVy$_">
+      <property role="OYnhT" value="Semantic Domain" />
+      <property role="TrG5h" value="c" />
+      <node concept="3h6Yrj" id="7QWc_WToq0N" role="3h6Yrm" />
+      <node concept="3h6Yrg" id="7QWc_WToq0J" role="3h6k2L">
+        <property role="3h6Yrh" value="&gt;8" />
+      </node>
+    </node>
+    <node concept="3h6Yrj" id="7QWc_WToq0Q" role="dMmLM" />
+    <node concept="3h6YrX" id="7QWc_WTpahW" role="3VVy$B">
+      <property role="TrG5h" value="N/A" />
+      <node concept="3h6Yrc" id="7QWc_WTpahV" role="3h6YrS">
+        <node concept="3h6YrA" id="7QWc_WTpahZ" role="3h6Yr4">
+          <property role="TrG5h" value="Field-1" />
+        </node>
+        <node concept="3h6YrA" id="7QWc_WTpai4" role="3h6Yr4">
+          <property role="TrG5h" value="Field-2" />
+        </node>
+      </node>
+      <node concept="3h6Yro" id="7QWc_WTpai8" role="3h6YrU">
+        <ref role="3h6YrC" node="7QWc_WTpahZ" resolve="Field-1" />
+        <node concept="3h6Yrj" id="7QWc_WTpaim" role="3h6Yrp" />
+        <node concept="3h6Yrg" id="7QWc_WTpaib" role="3h6Yrr" />
+      </node>
+      <node concept="3h6Yro" id="7QWc_WTpaic" role="3h6YrU">
+        <ref role="3h6YrC" node="7QWc_WTpai4" resolve="Field-2" />
+        <node concept="3h6Yrv" id="7QWc_WTpaip" role="3h6Yrp" />
+        <node concept="3h6Yrg" id="7QWc_WTpaif" role="3h6Yrr" />
       </node>
     </node>
   </node>

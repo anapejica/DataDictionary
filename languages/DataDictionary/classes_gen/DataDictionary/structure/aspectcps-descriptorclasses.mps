@@ -3827,7 +3827,7 @@
                   <node concept="liA8E" id="lO" role="2OqNvi">
                     <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.property(java.lang.String,long)" resolve="property" />
                     <node concept="Xl_RD" id="lP" role="37wK5m">
-                      <property role="Xl_RC" value="descriotion" />
+                      <property role="Xl_RC" value="description" />
                     </node>
                     <node concept="1adDum" id="lQ" role="37wK5m">
                       <property role="1adDun" value="0x13db5904c2c0bfd5L" />
