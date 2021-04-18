@@ -7,6 +7,7 @@
   <imports />
   <registry>
     <language id="b7df9610-c91c-472e-b485-6407763b5456" name="DataDictionary">
+      <concept id="1430835183602417665" name="DataDictionary.structure.Set" flags="ng" index="3h6T$5" />
       <concept id="1430835183602417597" name="DataDictionary.structure.IStructure" flags="ng" index="3h6YqT">
         <child id="1430835183602417600" name="elements" index="3h6Yr4" />
       </concept>
@@ -90,36 +91,43 @@
       </node>
     </node>
   </node>
-  <node concept="3VV4U5" id="7QWc_WToq0G">
-    <property role="TrG5h" value="d" />
-    <node concept="3h6Yrb" id="7QWc_WToq0H" role="3VVy$_">
-      <property role="OYnhT" value="Semantic Domain" />
-      <property role="TrG5h" value="c" />
-      <node concept="3h6Yrj" id="7QWc_WToq0N" role="3h6Yrm" />
-      <node concept="3h6Yrg" id="7QWc_WToq0J" role="3h6k2L">
-        <property role="3h6Yrh" value="&gt;8" />
-      </node>
-    </node>
-    <node concept="3h6Yrj" id="7QWc_WToq0Q" role="dMmLM" />
-    <node concept="3h6YrX" id="7QWc_WTpahW" role="3VVy$B">
-      <property role="TrG5h" value="N/A" />
-      <node concept="3h6Yrc" id="7QWc_WTpahV" role="3h6YrS">
-        <node concept="3h6YrA" id="7QWc_WTpahZ" role="3h6Yr4">
+  <node concept="3VV4U5" id="3gWRFH7IUlL">
+    <property role="TrG5h" value="f" />
+    <node concept="3h6Yrj" id="3gWRFH7IUlM" role="dMmLM" />
+    <node concept="3h6Yrs" id="3gWRFH7IUlV" role="dMmLM" />
+    <node concept="3h6Yrt" id="3gWRFH7IUm3" role="dMmLM" />
+    <node concept="3h6YrX" id="3gWRFH7Oytd" role="3VVy$B">
+      <property role="TrG5h" value="generic_name2" />
+      <node concept="3h6Yrc" id="3gWRFH7Oytc" role="3h6YrS">
+        <node concept="3h6YrA" id="3gWRFH7Oytg" role="3h6Yr4">
           <property role="TrG5h" value="Field-1" />
         </node>
-        <node concept="3h6YrA" id="7QWc_WTpai4" role="3h6Yr4">
+        <node concept="3h6YrA" id="3gWRFH7Oytl" role="3h6Yr4">
           <property role="TrG5h" value="Field-2" />
         </node>
       </node>
-      <node concept="3h6Yro" id="7QWc_WTpai8" role="3h6YrU">
-        <ref role="3h6YrC" node="7QWc_WTpahZ" resolve="Field-1" />
-        <node concept="3h6Yrj" id="7QWc_WTpaim" role="3h6Yrp" />
-        <node concept="3h6Yrg" id="7QWc_WTpaib" role="3h6Yrr" />
+      <node concept="3h6Yro" id="3gWRFH7Oytp" role="3h6YrU">
+        <ref role="3h6YrC" node="3gWRFH7Oytg" resolve="Field-1" />
+        <node concept="3h6Yrg" id="3gWRFH7Oyts" role="3h6Yrr" />
+        <node concept="3h6Yrv" id="3gWRFH7Oytx" role="3h6Yrp" />
       </node>
-      <node concept="3h6Yro" id="7QWc_WTpaic" role="3h6YrU">
-        <ref role="3h6YrC" node="7QWc_WTpai4" resolve="Field-2" />
-        <node concept="3h6Yrv" id="7QWc_WTpaip" role="3h6Yrp" />
-        <node concept="3h6Yrg" id="7QWc_WTpaif" role="3h6Yrr" />
+      <node concept="3h6Yro" id="3gWRFH7Oytt" role="3h6YrU">
+        <ref role="3h6YrC" node="3gWRFH7Oytl" resolve="Field-2" />
+        <node concept="3h6Yrg" id="3gWRFH7Oytw" role="3h6Yrr" />
+        <node concept="3h6Yrv" id="3gWRFH7Oyty" role="3h6Yrp" />
+      </node>
+    </node>
+    <node concept="3h6YrX" id="3gWRFH7OytE" role="3VVy$B">
+      <property role="TrG5h" value="generic_name" />
+      <node concept="3h6T$5" id="3gWRFH7OytD" role="3h6YrS">
+        <node concept="3h6YrA" id="3gWRFH7OytR" role="3h6Yr4">
+          <property role="TrG5h" value="Field-2" />
+        </node>
+      </node>
+      <node concept="3h6Yro" id="3gWRFH7OytT" role="3h6YrU">
+        <ref role="3h6YrC" node="3gWRFH7OytR" resolve="Field-2" />
+        <node concept="3h6Yrg" id="3gWRFH7OytW" role="3h6Yrr" />
+        <node concept="3h6Yrv" id="3gWRFH7OytX" role="3h6Yrp" />
       </node>
     </node>
   </node>

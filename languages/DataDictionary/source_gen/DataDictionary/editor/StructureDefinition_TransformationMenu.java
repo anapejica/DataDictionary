@@ -57,7 +57,7 @@ public class StructureDefinition_TransformationMenu extends TransformationMenuBa
   public class TMP_SubMenu_wl5ce8_a0 extends SubMenuMenuTransformationMenuPart {
     @Override
     protected String getText(TransformationMenuContext _context) {
-      return "Fields TMENU";
+      return "Genereate Fields";
     }
 
     @NotNull
@@ -116,7 +116,7 @@ public class StructureDefinition_TransformationMenu extends TransformationMenuBa
         @Nullable
         @Override
         public String getLabelText(String pattern) {
-          return "Generate fields TMENU";
+          return "Click Here To Generate fields";
         }
 
         @Override

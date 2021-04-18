@@ -205,7 +205,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="6ttyxz4$tyN" role="3uHU7B">
-                  <property role="Xl_RC" value="Name" />
+                  <property role="Xl_RC" value="Structure-" />
                 </node>
               </node>
             </node>

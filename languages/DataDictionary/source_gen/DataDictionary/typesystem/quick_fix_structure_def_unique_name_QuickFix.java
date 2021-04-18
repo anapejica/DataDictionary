@@ -27,7 +27,7 @@ public class quick_fix_structure_def_unique_name_QuickFix extends QuickFix_Runti
     while (DataDictionary__BehaviorDescriptor.structureNameAlreadyExist_id6ttyxz4_N83.invoke(SNodeOperations.getNodeAncestor(((SNode) quick_fix_structure_def_unique_name_QuickFix.this.getField("structDef")[0]), CONCEPTS.DataDictionary$r5, false, false), "Structure " + num)) {
       num++;
     }
-    SPropertyOperations.assign(((SNode) quick_fix_structure_def_unique_name_QuickFix.this.getField("structDef")[0]), PROPS.name$MnvL, "Structure " + num);
+    SPropertyOperations.assign(((SNode) quick_fix_structure_def_unique_name_QuickFix.this.getField("structDef")[0]), PROPS.name$MnvL, "Structure" + num);
   }
 
   private static final class CONCEPTS {

@@ -16,6 +16,7 @@ import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
 import jetbrains.mps.errors.BaseQuickFixProvider;
 import DataDictionary.behavior.IElement__BehaviorDescriptor;
+import DataDictionary.behavior.StructureDefinition__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -43,6 +44,15 @@ public class check_StructureDefinition_NonTypesystemRule extends AbstractNonType
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(structureDefinition, "You don't have all field definitions in the structure", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420659803", null, errorTarget);
+      }
+    }
+    for (SNode fd : SLinkOperations.getChildren(structureDefinition, LINKS.fieldDefinitions$4ufY)) {
+      SNode current = fd;
+      if ((boolean) StructureDefinition__BehaviorDescriptor.fieldDefAlreadyExist_id6ttyxz4ACgX.invoke(structureDefinition, current)) {
+        {
+          final MessageTarget errorTarget = new NodeMessageTarget();
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(current, "Definition for this field already exists!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "3764128284519444949", null, errorTarget);
+        }
       }
     }
   }

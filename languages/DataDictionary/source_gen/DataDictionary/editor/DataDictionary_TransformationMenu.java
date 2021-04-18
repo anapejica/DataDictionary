@@ -28,7 +28,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import DataDictionary.behavior.StructureDefinition__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
@@ -58,7 +57,6 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
     if (ListSequence.fromListAndArray(new ArrayList<String>(), MenuLocations.CONTEXT_ASSISTANT).contains(_context.getMenuLocation())) {
       result.add(new TMP_SubMenu_m077tv_a0());
       result.add(new TMP_SubMenu_m077tv_b0());
-      result.add(new TMP_SubMenu_m077tv_c0());
     }
     return result;
   }
@@ -152,92 +150,6 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
   public class TMP_SubMenu_m077tv_b0 extends SubMenuMenuTransformationMenuPart {
     @Override
     protected String getText(TransformationMenuContext _context) {
-      return "Fields";
-    }
-
-    @NotNull
-    @Override
-    public TransformationMenuItem createItem(@NotNull TransformationMenuContext context) {
-      String description;
-      try {
-        description = "submenu " + getText(context);
-      } catch (Throwable t) {
-        return super.createItem(context);
-      }
-      context.getEditorMenuTrace().pushTraceInfo();
-      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "1587350356731091997")));
-      try {
-        return super.createItem(context);
-      } finally {
-        context.getEditorMenuTrace().popTraceInfo();
-      }
-    }
-
-
-    @Override
-    protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new TMP_Action_m077tv_a1a());
-    }
-    private class TMP_Action_m077tv_a1a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
-      @Nullable
-      protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        Item item = new Item(context);
-        String description;
-        try {
-          description = "single item: " + item.getLabelText("");
-        } catch (Throwable t) {
-          Logger.getLogger(getClass()).error("Exception while executing getText of the item " + item, t);
-          return null;
-        }
-        context.getEditorMenuTrace().pushTraceInfo();
-        try {
-          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "1587350356731164250")));
-          item.setTraceInfo(context.getEditorMenuTrace().getTraceInfo());
-        } finally {
-          context.getEditorMenuTrace().popTraceInfo();
-        }
-        return item;
-      }
-
-      private class Item extends ActionItemBase {
-        private final TransformationMenuContext _context;
-        private EditorMenuTraceInfo myEditorMenuTraceInfo;
-        private Item(TransformationMenuContext context) {
-          _context = context;
-        }
-        private void setTraceInfo(EditorMenuTraceInfo info) {
-          myEditorMenuTraceInfo = info;
-        }
-        @Nullable
-        @Override
-        public String getLabelText(String pattern) {
-          return "Generate fields";
-        }
-
-        @Override
-        public void execute(@NotNull String pattern) {
-          for (SNode structureDefinition : SLinkOperations.getChildren(_context.getNode(), LINKS.structures$76Gs)) {
-            if (ListSequence.fromList(SLinkOperations.getChildren(structureDefinition, LINKS.fieldDefinitions$4ufY)).isEmpty()) {
-              StructureDefinition__BehaviorDescriptor.generateFieldDef_id6ttyxz4Ahx1.invoke(structureDefinition);
-            }
-          }
-        }
-
-
-
-
-        @Override
-        public EditorMenuTraceInfo getTraceInfo() {
-          return myEditorMenuTraceInfo;
-        }
-
-      }
-
-    }
-  }
-  public class TMP_SubMenu_m077tv_c0 extends SubMenuMenuTransformationMenuPart {
-    @Override
-    protected String getText(TransformationMenuContext _context) {
       return "Structures";
     }
 
@@ -262,9 +174,9 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
 
     @Override
     protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new TMP_Action_m077tv_a2a());
+      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new TMP_Action_m077tv_a1a(), new TMP_Action_m077tv_b1a(), new TMP_Action_m077tv_c1a(), new TMP_Action_m077tv_d1a());
     }
-    private class TMP_Action_m077tv_a2a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
+    private class TMP_Action_m077tv_a1a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
       @Nullable
       protected TransformationMenuItem createItem(TransformationMenuContext context) {
         Item item = new Item(context);
@@ -304,7 +216,175 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
         public void execute(@NotNull String pattern) {
           SNode nodeA = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfc8L, "DataDictionary.structure.Aggregation"));
           SNode nodeSD = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, "DataDictionary.structure.StructureDefinition"));
-          SPropertyOperations.assign(nodeSD, PROPS.name$MnvL, "n/a");
+          SPropertyOperations.assign(nodeSD, PROPS.name$MnvL, "generic_name");
+          SLinkOperations.setTarget(nodeSD, LINKS.structure$4tLW, nodeA);
+          ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.structures$76Gs)).addElement(nodeSD);
+        }
+
+
+
+
+        @Override
+        public EditorMenuTraceInfo getTraceInfo() {
+          return myEditorMenuTraceInfo;
+        }
+
+      }
+
+    }
+    private class TMP_Action_m077tv_b1a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
+      @Nullable
+      protected TransformationMenuItem createItem(TransformationMenuContext context) {
+        Item item = new Item(context);
+        String description;
+        try {
+          description = "single item: " + item.getLabelText("");
+        } catch (Throwable t) {
+          Logger.getLogger(getClass()).error("Exception while executing getText of the item " + item, t);
+          return null;
+        }
+        context.getEditorMenuTrace().pushTraceInfo();
+        try {
+          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2336684179411260955")));
+          item.setTraceInfo(context.getEditorMenuTrace().getTraceInfo());
+        } finally {
+          context.getEditorMenuTrace().popTraceInfo();
+        }
+        return item;
+      }
+
+      private class Item extends ActionItemBase {
+        private final TransformationMenuContext _context;
+        private EditorMenuTraceInfo myEditorMenuTraceInfo;
+        private Item(TransformationMenuContext context) {
+          _context = context;
+        }
+        private void setTraceInfo(EditorMenuTraceInfo info) {
+          myEditorMenuTraceInfo = info;
+        }
+        @Nullable
+        @Override
+        public String getLabelText(String pattern) {
+          return "Create {Set}";
+        }
+
+        @Override
+        public void execute(@NotNull String pattern) {
+          SNode nodeSet = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0c001L, "DataDictionary.structure.Set"));
+          SNode nodeSD = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, "DataDictionary.structure.StructureDefinition"));
+          SPropertyOperations.assign(nodeSD, PROPS.name$MnvL, "generic_name");
+          SLinkOperations.setTarget(nodeSD, LINKS.structure$4tLW, nodeSet);
+          ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.structures$76Gs)).addElement(nodeSD);
+        }
+
+
+
+
+        @Override
+        public EditorMenuTraceInfo getTraceInfo() {
+          return myEditorMenuTraceInfo;
+        }
+
+      }
+
+    }
+    private class TMP_Action_m077tv_c1a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
+      @Nullable
+      protected TransformationMenuItem createItem(TransformationMenuContext context) {
+        Item item = new Item(context);
+        String description;
+        try {
+          description = "single item: " + item.getLabelText("");
+        } catch (Throwable t) {
+          Logger.getLogger(getClass()).error("Exception while executing getText of the item " + item, t);
+          return null;
+        }
+        context.getEditorMenuTrace().pushTraceInfo();
+        try {
+          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "1587350356731008420")));
+          item.setTraceInfo(context.getEditorMenuTrace().getTraceInfo());
+        } finally {
+          context.getEditorMenuTrace().popTraceInfo();
+        }
+        return item;
+      }
+
+      private class Item extends ActionItemBase {
+        private final TransformationMenuContext _context;
+        private EditorMenuTraceInfo myEditorMenuTraceInfo;
+        private Item(TransformationMenuContext context) {
+          _context = context;
+        }
+        private void setTraceInfo(EditorMenuTraceInfo info) {
+          myEditorMenuTraceInfo = info;
+        }
+        @Nullable
+        @Override
+        public String getLabelText(String pattern) {
+          return "Create /Nonexclusive specialization/";
+        }
+
+        @Override
+        public void execute(@NotNull String pattern) {
+          SNode nodeA = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff0L, "DataDictionary.structure.NonExclusiveSpecialization"));
+          SNode nodeSD = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, "DataDictionary.structure.StructureDefinition"));
+          SPropertyOperations.assign(nodeSD, PROPS.name$MnvL, "generic_name");
+          SLinkOperations.setTarget(nodeSD, LINKS.structure$4tLW, nodeA);
+          ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.structures$76Gs)).addElement(nodeSD);
+        }
+
+
+
+
+        @Override
+        public EditorMenuTraceInfo getTraceInfo() {
+          return myEditorMenuTraceInfo;
+        }
+
+      }
+
+    }
+    private class TMP_Action_m077tv_d1a extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
+      @Nullable
+      protected TransformationMenuItem createItem(TransformationMenuContext context) {
+        Item item = new Item(context);
+        String description;
+        try {
+          description = "single item: " + item.getLabelText("");
+        } catch (Throwable t) {
+          Logger.getLogger(getClass()).error("Exception while executing getText of the item " + item, t);
+          return null;
+        }
+        context.getEditorMenuTrace().pushTraceInfo();
+        try {
+          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:5c04ab49-8a53-487d-a93a-9e515ed0330f(DataDictionary.editor)", "2336684179411355957")));
+          item.setTraceInfo(context.getEditorMenuTrace().getTraceInfo());
+        } finally {
+          context.getEditorMenuTrace().popTraceInfo();
+        }
+        return item;
+      }
+
+      private class Item extends ActionItemBase {
+        private final TransformationMenuContext _context;
+        private EditorMenuTraceInfo myEditorMenuTraceInfo;
+        private Item(TransformationMenuContext context) {
+          _context = context;
+        }
+        private void setTraceInfo(EditorMenuTraceInfo info) {
+          myEditorMenuTraceInfo = info;
+        }
+        @Nullable
+        @Override
+        public String getLabelText(String pattern) {
+          return "Create [Exclusive specialization]";
+        }
+
+        @Override
+        public void execute(@NotNull String pattern) {
+          SNode nodeA = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff3L, "DataDictionary.structure.ExclusiveSpecialization"));
+          SNode nodeSD = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, "DataDictionary.structure.StructureDefinition"));
+          SPropertyOperations.assign(nodeSD, PROPS.name$MnvL, "generic_name");
           SLinkOperations.setTarget(nodeSD, LINKS.structure$4tLW, nodeA);
           ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.structures$76Gs)).addElement(nodeSD);
         }
@@ -326,9 +406,8 @@ public class DataDictionary_TransformationMenu extends TransformationMenuBase {
     /*package*/ static final SContainmentLink domain$3UlB = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcfL, 0x13db5904c2c0bfd2L, "domain");
     /*package*/ static final SContainmentLink constraint$4odT = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfcfL, 0x13db5904c2c219b5L, "constraint");
     /*package*/ static final SContainmentLink semanticDomains$77au = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x6d04cb7a96e885ffL, 0x6d04cb7a96eae25fL, "semanticDomains");
-    /*package*/ static final SContainmentLink structures$76Gs = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x6d04cb7a96e885ffL, 0x6d04cb7a96eae25dL, "structures");
-    /*package*/ static final SContainmentLink fieldDefinitions$4ufY = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, 0x13db5904c2c0bffeL, "fieldDefinitions");
     /*package*/ static final SContainmentLink structure$4tLW = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, 0x13db5904c2c0bffcL, "structure");
+    /*package*/ static final SContainmentLink structures$76Gs = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x6d04cb7a96e885ffL, 0x6d04cb7a96eae25dL, "structures");
   }
 
   private static final class PROPS {

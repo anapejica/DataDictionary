@@ -11,14 +11,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import DataDictionary.behavior.IElement__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class check_Field_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public check_Field_NonTypesystemRule() {
@@ -45,15 +44,11 @@ public class check_Field_NonTypesystemRule extends AbstractNonTypesystemRule_Run
       }
     }
 
-    for (SNode el : SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(field, CONCEPTS.IStructure$y7, false, false), LINKS.elements$3FNB)) {
-      if (SNodeOperations.isInstanceOf(el, CONCEPTS.Field$o3)) {
-        SNode fld = (SNode) el;
-        if (field != fld && SPropertyOperations.getString(field, PROPS.name$MnvL).equals(SPropertyOperations.getString(fld, PROPS.name$MnvL))) {
-          {
-            final MessageTarget errorTarget = new NodeMessageTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name must be in the structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421085899", null, errorTarget);
-          }
-        }
+    SNode structure = SNodeOperations.getNodeAncestor(field, CONCEPTS.IStructure$y7, false, false);
+    if (IElement__BehaviorDescriptor.fieldNameAlreadyExist_id6ttyxz4A9A4.invoke(structure, field)) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(field, "Field name must be unique in the structure!", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "3764128284518650804", null, errorTarget);
       }
     }
   }
@@ -72,11 +67,7 @@ public class check_Field_NonTypesystemRule extends AbstractNonTypesystemRule_Run
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Field$o3 = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfe2L, "DataDictionary.structure.Field");
     /*package*/ static final SInterfaceConcept IStructure$y7 = MetaAdapterFactory.getInterfaceConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfbdL, "DataDictionary.structure.IStructure");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink elements$3FNB = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfbdL, 0x13db5904c2c0bfc0L, "elements");
+    /*package*/ static final SConcept Field$o3 = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfe2L, "DataDictionary.structure.Field");
   }
 }

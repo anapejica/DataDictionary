@@ -294,7 +294,7 @@
             <node concept="3clFbF" id="2oP61_Gx$et" role="3cqZAp">
               <node concept="37vLTI" id="2oP61_Gx$NN" role="3clFbG">
                 <node concept="Xl_RD" id="2oP61_Gx$Oj" role="37vLTx">
-                  <property role="Xl_RC" value="N/A" />
+                  <property role="Xl_RC" value="generic_name" />
                 </node>
                 <node concept="2OqwBi" id="2oP61_Gx$om" role="37vLTJ">
                   <node concept="37vLTw" id="2oP61_Gx$er" role="2Oq$k0">

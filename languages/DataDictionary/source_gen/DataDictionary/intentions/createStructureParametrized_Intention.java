@@ -80,7 +80,7 @@ public final class createStructureParametrized_Intention extends AbstractIntenti
       if ((nodeStructure != null)) {
         SNode nodeStructureDefiniton = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, "DataDictionary.structure.StructureDefinition"));
         SLinkOperations.setTarget(nodeStructureDefiniton, LINKS.structure$4tLW, nodeStructure);
-        SPropertyOperations.assign(nodeStructureDefiniton, PROPS.name$MnvL, "N/A");
+        SPropertyOperations.assign(nodeStructureDefiniton, PROPS.name$MnvL, "generic_name");
         ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.structures$76Gs)).addElement(nodeStructureDefiniton);
       }
     }

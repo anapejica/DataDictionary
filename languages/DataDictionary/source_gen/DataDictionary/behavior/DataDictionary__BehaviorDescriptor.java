@@ -23,6 +23,7 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
@@ -31,9 +32,10 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Integer> getNumberOfStructure_id6O4MREmX0Ep = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getNumberOfStructure").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6O4MREmX0Ep").build();
   public static final SMethod<Integer> getNumberOfSet_id6O4MREmXJSU = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getNumberOfSet").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6O4MREmXJSU").build();
   public static final SMethod<Integer> getNumberOfAggregation_id6ttyxz4_zbK = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getNumberOfAggregation").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4_zbK").build();
+  public static final SMethod<Integer> getNumberOfSpecializations_id3gWRFH7HS6E = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getNumberOfSpecializations").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3gWRFH7HS6E").build();
   public static final SMethod<Boolean> structureNameAlreadyExist_id6ttyxz4_N83 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.class)).name("structureNameAlreadyExist").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("6ttyxz4_N83").build(SMethodBuilder.createJavaParameter(String.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNumberOfStructure_id6O4MREmX0Ep, getNumberOfSet_id6O4MREmXJSU, getNumberOfAggregation_id6ttyxz4_zbK, structureNameAlreadyExist_id6ttyxz4_N83);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNumberOfStructure_id6O4MREmX0Ep, getNumberOfSet_id6O4MREmXJSU, getNumberOfAggregation_id6ttyxz4_zbK, getNumberOfSpecializations_id3gWRFH7HS6E, structureNameAlreadyExist_id6ttyxz4_N83);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
@@ -54,6 +56,15 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
     int number = 0;
     for (SNode agg : SLinkOperations.getChildren(__thisNode__, LINKS.structures$76Gs)) {
       if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(agg, LINKS.structure$4tLW), CONCEPTS.Aggregation$GW)) {
+        number++;
+      }
+    }
+    return number;
+  }
+  /*package*/ static int getNumberOfSpecializations_id3gWRFH7HS6E(@NotNull SNode __thisNode__) {
+    int number = 0;
+    for (SNode node : SLinkOperations.getChildren(__thisNode__, LINKS.structures$76Gs)) {
+      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.structure$4tLW), CONCEPTS.ISpecialization$E2)) {
         number++;
       }
     }
@@ -90,6 +101,8 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
       case 2:
         return (T) ((Integer) getNumberOfAggregation_id6ttyxz4_zbK(node));
       case 3:
+        return (T) ((Integer) getNumberOfSpecializations_id3gWRFH7HS6E(node));
+      case 4:
         return (T) ((Boolean) structureNameAlreadyExist_id6ttyxz4_N83(node, (String) parameters[0]));
       default:
         throw new BHMethodNotFoundException(this, method);
@@ -128,6 +141,7 @@ public final class DataDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   private static final class CONCEPTS {
     /*package*/ static final SConcept Set$5_ = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0c001L, "DataDictionary.structure.Set");
     /*package*/ static final SConcept Aggregation$GW = MetaAdapterFactory.getConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfc8L, "DataDictionary.structure.Aggregation");
+    /*package*/ static final SInterfaceConcept ISpecialization$E2 = MetaAdapterFactory.getInterfaceConcept(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bfc2L, "DataDictionary.structure.ISpecialization");
   }
 
   private static final class PROPS {
