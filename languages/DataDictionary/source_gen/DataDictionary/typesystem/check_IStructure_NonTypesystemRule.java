@@ -12,6 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
+import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -27,6 +28,11 @@ public class check_IStructure_NonTypesystemRule extends AbstractNonTypesystemRul
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(iStructure, "Every structure must have at least one element", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377421135271", null, errorTarget);
+        {
+          BaseQuickFixProvider intentionProvider = new BaseQuickFixProvider("DataDictionary.typesystem.quick_fix_min_one_element_QuickFix", "428207255362813557", false);
+          intentionProvider.putArgument("structure", iStructure);
+          _reporter_2309309498.addIntentionProvider(intentionProvider);
+        }
       }
     }
     if (SNodeOperations.isInstanceOf(iStructure, CONCEPTS.Aggregation$GW) && SNodeOperations.isInstanceOf(SNodeOperations.getNodeAncestor(iStructure, CONCEPTS.IStructure$y7, false, false), CONCEPTS.Aggregation$GW)) {

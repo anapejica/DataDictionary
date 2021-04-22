@@ -15,7 +15,6 @@ import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
 import jetbrains.mps.errors.BaseQuickFixProvider;
-import DataDictionary.behavior.IElement__BehaviorDescriptor;
 import DataDictionary.behavior.StructureDefinition__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -38,12 +37,6 @@ public class check_StructureDefinition_NonTypesystemRule extends AbstractNonType
             _reporter_2309309498.addIntentionProvider(intentionProvider);
           }
         }
-      }
-    }
-    if (ListSequence.fromList(SLinkOperations.getChildren(structureDefinition, LINKS.fieldDefinitions$4ufY)).count() < (int) IElement__BehaviorDescriptor.getFieldCount_id1frmgj2KeNS.invoke(SLinkOperations.getTarget(structureDefinition, LINKS.structure$4tLW))) {
-      {
-        final MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(structureDefinition, "You don't have all field definitions in the structure", "r:220831a1-1acb-4fbb-ba0f-68c947a9bb41(DataDictionary.typesystem)", "7855627377420659803", null, errorTarget);
       }
     }
     for (SNode fd : SLinkOperations.getChildren(structureDefinition, LINKS.fieldDefinitions$4ufY)) {
@@ -77,7 +70,6 @@ public class check_StructureDefinition_NonTypesystemRule extends AbstractNonType
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink structures$76Gs = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x6d04cb7a96e885ffL, 0x6d04cb7a96eae25dL, "structures");
-    /*package*/ static final SContainmentLink structure$4tLW = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, 0x13db5904c2c0bffcL, "structure");
     /*package*/ static final SContainmentLink fieldDefinitions$4ufY = MetaAdapterFactory.getContainmentLink(0xb7df9610c91c472eL, 0xb4856407763b5456L, 0x13db5904c2c0bff9L, 0x13db5904c2c0bffeL, "fieldDefinitions");
   }
 }

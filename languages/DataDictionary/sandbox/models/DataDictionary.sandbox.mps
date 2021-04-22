@@ -178,17 +178,17 @@
     <node concept="3h6YrX" id="nLj3FyaIbc" role="3VVy$B">
       <property role="TrG5h" value="NARUDZBENICA_KUPCA" />
       <node concept="3h6Yro" id="nLj3FyaIhJ" role="3h6YrU">
-        <ref role="3h6YrC" node="nLj3FyaIbw" resolve="NazivK" />
+        <ref role="3h6YrC" node="nLj3FyaIbw" resolve="Kupac" />
         <node concept="3h6Yrv" id="nLj3FyaIhK" role="3h6Yrp" />
         <node concept="3h6Yrg" id="nLj3FyaIhL" role="3h6Yrr" />
       </node>
       <node concept="3h6Yro" id="nLj3FyaIhP" role="3h6YrU">
-        <ref role="3h6YrC" node="nLj3FyaIbA" resolve="AdresaK" />
+        <ref role="3h6YrC" node="nLj3FyaIbA" resolve="Adresa" />
         <node concept="3h6Yrv" id="nLj3FyaIhQ" role="3h6Yrp" />
         <node concept="3h6Yrg" id="nLj3FyaIhR" role="3h6Yrr" />
       </node>
       <node concept="3h6Yro" id="nLj3FyaIhY" role="3h6YrU">
-        <ref role="3h6YrC" node="nLj3FyaIbS" resolve="TelefonK" />
+        <ref role="3h6YrC" node="nLj3FyaIbS" resolve="Telefon" />
         <node concept="3h6Yrv" id="nLj3FyaIhZ" role="3h6Yrp" />
         <node concept="3h6Yrg" id="nLj3FyaIi0" role="3h6Yrr" />
       </node>
@@ -211,14 +211,14 @@
       </node>
       <node concept="3h6Yrc" id="nLj3FyaIbb" role="3h6YrS">
         <node concept="3h6YrA" id="nLj3FyaIbw" role="3h6Yr4">
-          <property role="TrG5h" value="NazivK" />
+          <property role="TrG5h" value="Kupac" />
         </node>
         <node concept="3h6YrA" id="nLj3FyaIbA" role="3h6Yr4">
-          <property role="TrG5h" value="AdresaK" />
+          <property role="TrG5h" value="Adresa" />
         </node>
         <node concept="3h6T$5" id="nLj3FyaIbN" role="3h6Yr4">
           <node concept="3h6YrA" id="nLj3FyaIbS" role="3h6Yr4">
-            <property role="TrG5h" value="TelefonK" />
+            <property role="TrG5h" value="Telefon" />
           </node>
         </node>
         <node concept="3h6T$5" id="nLj3FyaIc0" role="3h6Yr4">
