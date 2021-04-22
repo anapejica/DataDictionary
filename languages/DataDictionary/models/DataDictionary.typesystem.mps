@@ -98,9 +98,6 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
-      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
-        <child id="1224760230762" name="infoText" index="Dpw9R" />
-      </concept>
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
@@ -166,9 +163,6 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
-      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
-        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -640,44 +634,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="6O4MREmZoOU" role="3cqZAp">
-        <node concept="3eOVzh" id="6O4MREmZtCq" role="3clFbw">
-          <node concept="2OqwBi" id="6O4MREmZuwn" role="3uHU7w">
-            <node concept="2OqwBi" id="6O4MREmZu0T" role="2Oq$k0">
-              <node concept="1YBJjd" id="6O4MREmZtFI" role="2Oq$k0">
-                <ref role="1YBMHb" node="6O4MREmZoOQ" resolve="structureDefinition" />
-              </node>
-              <node concept="3TrEf2" id="6O4MREmZuaE" role="2OqNvi">
-                <ref role="3Tt5mk" to="8l3b:1frmgj2KbZW" resolve="structure" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="6O4MREmZuFB" role="2OqNvi">
-              <ref role="37wK5l" to="zcm7:1frmgj2KeNS" resolve="getFieldCount" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="6O4MREmZqLW" role="3uHU7B">
-            <node concept="2OqwBi" id="6O4MREmZoYL" role="2Oq$k0">
-              <node concept="1YBJjd" id="6O4MREmZoP6" role="2Oq$k0">
-                <ref role="1YBMHb" node="6O4MREmZoOQ" resolve="structureDefinition" />
-              </node>
-              <node concept="3Tsc0h" id="6O4MREmZp8s" role="2OqNvi">
-                <ref role="3TtcxE" to="8l3b:1frmgj2KbZY" resolve="fieldDefinitions" />
-              </node>
-            </node>
-            <node concept="34oBXx" id="6O4MREmZsrN" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="6O4MREmZoOW" role="3clFbx">
-          <node concept="Dpp1Q" id="6O4MREmZuLr" role="3cqZAp">
-            <node concept="Xl_RD" id="6O4MREmZuLH" role="Dpw9R">
-              <property role="Xl_RC" value="You don't have all field definitions in the structure" />
-            </node>
-            <node concept="1YBJjd" id="6O4MREmZuMC" role="1urrMF">
-              <ref role="1YBMHb" node="6O4MREmZoOQ" resolve="structureDefinition" />
             </node>
           </node>
         </node>
